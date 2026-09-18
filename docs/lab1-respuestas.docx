@@ -1,0 +1,49 @@
+1. ¿Cuál es la diferencia entre Working Directory, Staging Area y Local Repository? Da un ejemplo de un archivo pasando por las tres.
+
+El working directory es la carpeta de mi equipo donde trabajo y voy modificando los archivos. La staging area es donde se registran los cambios que quiero incluir en el siguiente commit, y los meto ahí con git add. El local repository es donde quedan guardados los commits ya hechos, dentro de la carpeta .git.
+
+Ejemplo con el README.md: lo edité con nano (working directory), hice git add README.md (staging, y git status ya lo mostraba en "Changes to be committed") y después git commit -m "docs: ..." para guardarlo en el repositorio local.
+
+2. Si modificas un archivo pero no haces git add, ¿aparece ese cambio en tu próximo commit? Explica por qué.
+
+No. El commit solo coge lo que está en la staging area, y lo que he modificado pero no he añadido se queda en el working directory. Lo vi con git status: después de editar el README salía como "Changes not staged for commit", y solo pasó a "Changes to be committed" cuando hice git add.
+
+3. ¿Por qué git status no mostraba las carpetas vacías que creaste en la Parte C? ¿Qué truco usamos para solucionarlo?
+
+Git solo sigue archivos, no carpetas, así que una carpeta vacía no aparece porque no tiene nada que registrar. Lo solucionamos creando un archivo .gitkeep vacío dentro de cada carpeta. Además puse status.showUntrackedFiles all para que git status enseñara cada archivo y no solo la carpeta.
+
+4. Explica con tus palabras qué es HEAD.
+
+Es un puntero que dice en qué punto del repositorio estoy: la rama en la que estoy y su último commit. En git log salía como (HEAD -> main), y cuando cambiaba de rama con git switch se movía a la nueva.
+
+5. ¿Qué diferencia hay entre crear una branch con git switch -c y crear una carpeta nueva con mkdir? ¿Cómo lo comprobamos en la Parte G?
+
+mkdir solo crea una carpeta en el disco. git switch -c crea una rama nueva (una línea de trabajo aparte con sus propios commits) y me cambia a ella, pero no crea ninguna carpeta. En la Parte G lo comprobé creando docs/customer-search.md en feature/customer-search. Al volver a master y hacer ls docs/ el archivo ya no estaba, y al volver a la rama aparecía otra vez. Es la misma carpeta, pero cambia lo que hay dentro según la rama.
+
+6. Durante el conflicto de la Parte H, ¿qué representaba el contenido entre <<<<<<< HEAD y =======? ¿Y entre ======= y >>>>>>>?
+
+Lo de arriba (entre <<<<<<< HEAD y =======) es lo que tenía la rama en la que estaba, en mi caso main. Lo de abajo (entre ======= y >>>>>>>) es lo que venía de la rama que estaba fusionando, fix/readme-subtitle. Tenía que quedarme con una de las dos versiones o mezclarlas y borrar los marcadores. A mí se me olvidó quitar alguno y me di cuenta al abrir el README después, por eso hice otro commit para limpiarlo.
+
+7. ¿Por qué NO se debe hacer git commit --amend sobre un commit que ya se subió con git push?
+
+Porque amend no modifica el commit, crea uno nuevo con otro hash. Si el antiguo ya está en el remoto, los dos historiales dejan de coincidir y para subirlo hay que forzar el push, lo que puede pisar el trabajo de otros. A mí me pasó algo parecido tras el rebase: el push me lo rechazó y tuve que usar --force-with-lease.
+
+8. Si borras por accidente la carpeta .git de tu proyecto, ¿qué se pierde exactamente? ¿Se pierde también el código fuente que está en el disco?
+
+Se pierde el historial (commits, ramas, el remoto configurado). El código no, porque los archivos están en el working directory y no dentro de .git. Yo lo hice con rm -rf .git en ADMON_BBDD, los archivos siguieron ahí y después hice git init y un commit nuevo desde cero.
+
+9. Explica con tus propias palabras la diferencia entre Git y GitHub, sin usar la palabra "nube".
+
+Git es el programa que uso en mi ordenador para llevar el control de versiones: commits, ramas, merges... GitHub es una página web donde se alojan repositorios de Git y donde se puede colaborar con otra gente (pull requests, issues, etc.). Git funciona por sí solo sin GitHub.
+
+10. ¿Por qué no se debe subir un archivo .env con contraseñas reales a un repositorio, aunque el repositorio sea privado?
+
+Porque lo que se sube se queda en el historial aunque luego borres el archivo, y un repo privado lo puede ver más gente de la que piensas o acabar siendo público. Lo normal es poner el .env en el .gitignore y, si ya se subió, cambiar las contraseñas.
+
+11. Un compañero te dice: "hice push y ahora GitHub me rechaza el segundo push con 'non-fastforward'". ¿Qué ha ocurrido probablemente y qué comando ejecutarías primero?
+
+Probablemente el remoto tiene commits que él no tiene en local, o ha reescrito el historial (con rebase o amend) y ya no coincide. Yo haría primero un git pull, o un git fetch y mirar con git log --oneline --graph --all qué hay en el remoto, antes de volver a hacer push. Forzar el push lo dejaría para el final, como me pasó a mí en la práctica.
+
+12. ¿Qué tipo de Conventional Commit (feat, fix, docs, test…) usarías para: añadir un índice de rendimiento a una tabla, corregir una restricción mal definida, y actualizar el README?
+
+Para el índice de rendimiento usaría feat:, para la restricción mal definida fix: y para el README docs:
