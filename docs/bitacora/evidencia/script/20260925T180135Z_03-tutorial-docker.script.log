@@ -1,0 +1,504 @@
+Script started on 2026-09-25 20:01:35+02:00 [TERM="xterm-256color" TTY="/dev/pts/10" COLUMNS="67" LINES="12"]
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ [K]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ [K]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ cd ~/ orc[Kacle-database-lab
+[?2004lbash: cd: /home/garmar/oracle-database-lab: No such file or directory
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ eceh[K[Kc[K[Kcho  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C  ~/
+[?2004l/home/garmar/
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ 
+[?2004l[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ echo ~/[A]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ cd ~/oracle-database-lab[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CU/[1@o[1@C[1@A[1@M[1P[1P[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/o[1P[A]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ [C[C[C[C
+[1@/[1@C[1@A[1P[1P[1@U[1@C[1@A[1@M[1@_[8@projects[C[1@/[10@ADMON_BBDD
+[?2004l[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ soure [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc e scripts/deployment/env/00-config.sh 
+[?2004l[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ scrop t[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[7mscrip[27m[7mt[27m[7m -q "$EVID/script/$(ts)_03-tutorial-docker.script.log"[27m[A]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ script -q "$EVID/script/$(ts)_03-tutorial-docker.script.log"
+[?2004l[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ dlc[K[Kocke r version
+[?2004lClient:
+ Version:           29.8.0
+ API version:       1.56
+ Go version:        go1.26.8
+ Git commit:        88096ef
+ Built:             Thu Sep  3 21:49:51 2026
+ OS/Arch:           linux/amd64
+ Context:           default
+
+Server: Docker Desktop 4.92.0 (240144)
+ Engine:
+  Version:          29.8.0
+  API version:      1.56 (minimum version 1.40)
+  Go version:       go1.26.8
+  Git commit:       3ce5872
+  Built:            Thu Sep  3 21:51:20 2026
+  OS/Arch:          linux/amd64
+  Experimental:     false
+ containerd:
+  Version:          v2.3.5
+  GitCommit:        1294c24a7da8e5a793ed378161673abe94118892
+ runc:
+  Version:          1.5.1
+  GitCommit:        v1.5.1-0-g8f2685a4
+ docker-init:
+  Version:          0.19.0
+  GitCommit:        de40ad0
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ docke r info
+[?2004lClient:
+ Version:    29.8.0
+ Context:    default
+ Debug Mode: false
+ Plugins:
+  agent: Docker AI Agent Runner (Docker Inc.)
+    Version:  v1.140.0
+    Path:     /usr/local/lib/docker/cli-plugins/docker-agent
+  ai: Docker AI Agent - Ask Gordon (Docker Inc.)
+    Version:  v1.31.0
+    Path:     /usr/local/lib/docker/cli-plugins/docker-ai
+  buildx: Docker Buildx (Docker Inc.)
+    Version:  v0.37.1
+    Path:     /usr/local/lib/docker/cli-plugins/docker-buildx
+  compose: Docker Compose (Docker Inc.)
+    Version:  v5.5.1
+    Path:     /usr/local/lib/docker/cli-plugins/docker-compose
+  debug: Get a shell into any image or container (Docker Inc.)
+    Version:  0.0.47
+    Path:     /usr/local/lib/docker/cli-plugins/docker-debug
+  desktop: Docker Desktop commands (Docker Inc.)
+    Version:  v0.4.4
+    Path:     /usr/local/lib/docker/cli-plugins/docker-desktop
+  dhi: CLI for managing Docker Hardened Images (Docker Inc.)
+    Version:  v0.0.7
+    Path:     /usr/local/lib/docker/cli-plugins/docker-dhi
+  extension: Manages Docker extensions (Docker Inc.)
+    Version:  v0.2.31
+    Path:     /usr/local/lib/docker/cli-plugins/docker-extension
+  init: Creates Docker-related starter files for your project (Docker Inc.)
+    Version:  v1.4.0
+    Path:     /usr/local/lib/docker/cli-plugins/docker-init
+  mcp: Docker MCP Plugin (Docker Inc.)
+    Version:  v0.43.3
+    Path:     /usr/local/lib/docker/cli-plugins/docker-mcp
+  model: Docker Model Runner (Docker Inc.)
+    Version:  v1.2.6
+    Path:     /usr/local/lib/docker/cli-plugins/docker-model
+  offload: Docker Offload (Docker Inc.)
+    Version:  v0.6.27
+    Path:     /usr/local/lib/docker/cli-plugins/docker-offload
+  pass: Docker Pass Secrets Manager Plugin (beta) (Docker Inc.)
+    Version:  v0.2.2
+    Path:     /usr/local/lib/docker/cli-plugins/docker-pass
+  sandbox: "docker sandbox" is deprecated, use Docker Sandboxes instead (Docker Inc.)
+    Version:  v0.13.0
+    Path:     /usr/local/lib/docker/cli-plugins/docker-sandbox
+  scout: Docker Scout (Docker Inc.)
+    Version:  v1.24.0
+    Path:     /usr/local/lib/docker/cli-plugins/docker-scout
+
+Server:
+ Containers: 0
+  Running: 0
+  Paused: 0
+  Stopped: 0
+ Images: 1
+ Server Version: 29.8.0
+ Storage Driver: overlayfs
+  driver-type: io.containerd.snapshotter.v1
+ Logging Driver: json-file
+ Cgroup Driver: cgroupfs
+ Cgroup Version: 2
+ Plugins:
+  Volume: local
+  Network: bridge host ipvlan macvlan null overlay
+  Log: awslogs fluentd gcplogs gelf journald json-file local splunk syslog
+ CDI spec directories:
+  /etc/cdi
+  /var/run/cdi
+ Discovered Devices:
+  cdi: docker.com/gpu=webgpu
+ Swarm: inactive
+ Runtimes: runc io.containerd.runc.v2 nvidia
+ Default Runtime: runc
+ Init Binary: docker-init
+ containerd version: 1294c24a7da8e5a793ed378161673abe94118892
+ runc version: v1.5.1-0-g8f2685a4
+ init version: de40ad0
+ Security Options:
+  seccomp
+   Profile: builtin
+  cgroupns
+ Kernel Version: 6.18.33.1-microsoft-standard-WSL2
+ Operating System: Docker Desktop
+ OSType: linux
+ Architecture: x86_64
+ CPUs: 12
+ Total Memory: 7.602GiB
+ Name: docker-desktop
+ ID: a25bf716-1f8f-4997-93c5-78a61e2825c2
+ Docker Root Dir: /var/lib/docker
+ Debug Mode: false
+ HTTP Proxy: http.docker.internal:3128
+ HTTPS Proxy: http.docker.internal:3128
+ No Proxy: hubproxy.docker.internal
+ Labels:
+  com.docker.desktop.address=unix:///var/run/docker-cli.sock
+ Experimental: false
+ Insecure Registries:
+  hubproxy.docker.internal:5555
+  ::1/128
+  127.0.0.0/8
+ Live Restore Enabled: false
+ Firewall Backend: iptables
+
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ docke r -[K[K run hello [K-world
+[?2004l
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+    (amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ docke r sp[K[Kps
+[?2004lCONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ docje r[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[Ko[Kdocke r ps -a
+[?2004lCONTAINER ID   IMAGE         COMMAND    CREATED          STATUS                      PORTS     NAMES
+0ad3dc87d2d4   hello-world   "/hello"   30 seconds ago   Exited (0) 29 seconds ago             boring_shirley
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ dokce r [K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[Kcke r pl[Kull ap[Klpine [K: 3[K3[K[K3.20
+[?2004l3.20: Pulling from library/alpine
+
+[1A[2K25f1d6b1951a: Pulling fs layer [1B[1A[2K25f1d6b1951a: Downloading  1.049MB/3.63MB[1B[1A[2K25f1d6b1951a: Downloading  2.097MB/3.63MB[1B[1A[2K25f1d6b1951a: Download complete [1B
+[1A[2Kd4050d56ebf2: Downloading  73.69kB/73.69kB[1B[2A[2K25f1d6b1951a: Extracting 1 s[2B
+[1A[2K3a030ca3f633: Download complete [1B[2A[2Kd4050d56ebf2: Download complete [2B[3A[2K25f1d6b1951a: Extracting 1 s[3B[3A[2K25f1d6b1951a: Pull complete [3BDigest: sha256:d9e853e87e55526f6b2917df91a2115c36dd7c696a35be12163d44e6e2a4b6bc
+Status: Downloaded newer image for alpine:3.20
+docker.io/library/alpine:3.20
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ docke r images
+[?2004l                                               [1m[106m[30mi[0m[0m [96mInfo → [0m[0m [38;5;0m[48;5;14m U [0m In Use
+[39m[1mIMAGE[0m              [39m[1mID[0m             [39m[1mDISK USAGE[0m   [39m[1mCONTENT SIZE[0m   [39m[1mEXTRA[0m
+[34m[1malpine:3.20[0m        [39md9e853e87e55[0m       [39m12.2MB[0m         [39m3.71MB[0m        
+[34m[1mhello-world:latest[0m
+                   [39m5e2309035332[0m       [39m25.9kB[0m         [39m9.49kB[0m   [38;5;0m[48;5;14m U [0m  
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ docke r run -it --name priev[K[K[Kueva[K[Kba alpine 2[K3 [K:20[K[K[K[K3.20 sh
+[?2004lUnable to find image 'alpine:latest' locally
+latest: Pulling from library/alpine
+
+[1A[2Ke2de96513ba9: Pulling fs layer [1B[1A[2Ke2de96513ba9: Downloading  3.146MB/3.85MB[1B
+[1A[2K797dd00a0fc7: Download complete [1B[2A[2Ke2de96513ba9: Download complete [2B[2A[2Ke2de96513ba9: Extracting 1 s[2B
+[1A[2K6d0606d1815c: Download complete [1B[3A[2Ke2de96513ba9: Pull complete [3BDigest: sha256:294b683cb724975bec92580e1e685676bd4b50bda910ddb8c51d4cabeaec77e6
+Status: Downloaded newer image for alpine:latest
+docker: Error response from daemon: failed to create task for container: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: error during container init: exec: "3.20": executable file not found in $PATH
+
+Run 'docker run --help' for more information
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ docker run -it --name prueba alpine 3.20 sh
+[?2004ldocker: Error response from daemon: Conflict. The container name "/prueba" is already in use by container "e0a460d511ffe3fa0876e6a60b0add29092a65e008981864d3aa68f693c29761". You have to remove (or rename) that container to be able to reuse that name.
+
+Run 'docker run --help' for more information
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ docke r run[K[K[K[K pull alpine:3.20 
+[?2004l3.20: Pulling from library/alpine
+Digest: sha256:d9e853e87e55526f6b2917df91a2115c36dd7c696a35be12163d44e6e2a4b6bc
+Status: Image is up to date for alpine:3.20
+docker.io/library/alpine:3.20
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ docker pull alpine:3.20 [C[Crun -it --name prueba alpine 3.20 sh[C[C[19Ppull alpine:3.20 [C[Crun -it --name prueba alpine 3.20 sh
+[?2004ldocker: Error response from daemon: Conflict. The container name "/prueba" is already in use by container "e0a460d511ffe3fa0876e6a60b0add29092a65e008981864d3aa68f693c29761". You have to remove (or rename) that container to be able to reuse that name.
+
+Run 'docker run --help' for more information
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ [K]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ [K]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ do[K[Kdcoekr[K[K[K[K[Kocker rm prueba 
+[?2004lprueba
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ docker rem[K[Km prueba
+[?2004lError response from daemon: No such container: prueba
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ doc[Kcker run ..[K[K--it 
+.git/           .gitattributes  .gitignore      README.md       config/         database/       docs/           playbooks/      runbooks/       scripts/
+]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ docker run --it 
+.git/           .gitattributes  .gitignore      README.md       config/         database/       docs/           playbooks/      runbooks/       scripts/
+]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ docker run --it m pruebadocker r[K[K[K[K[K[K[K un -it --name prueba alpine 3.20 sh[1P[1@:
+[?2004l/ # [6n/ # [J/ # [J/ # [J/ # [Jcat /etc/os-relae[J[Jease
+NAME="Alpine Linux"
+ID=alpine
+VERSION_ID=3.20.10
+PRETTY_NAME="Alpine Linux v3.20"
+HOME_URL="https://alpinelinux.org/"
+BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"
+/ # [6nhostname
+7f4faf3aedf1
+/ # [6nls /
+[1;34mbin[m    [1;34metc[m    [1;34mlib[m    [1;34mmnt[m    [1;34mproc[m   [1;34mrun[m    [1;34msrv[m    [1;34mtmp[m    [1;34mvar[m
+[1;34mdev[m    [1;34mhome[m   [1;34mmedia[m  [1;34mopt[m    [1;34mroot[m   [1;34msbin[m   [1;34msys[m    [1;34musr[m
+/ # [6nexit
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ docke r ps -a --filter ""n"a"m"e" "[1P"?" "[1P"[1P"="p"r"u"e"b"a"
+[?2004lCONTAINER ID   IMAGE         COMMAND   CREATED          STATUS                      PORTS     NAMES
+7f4faf3aedf1   alpine:3.20   "sh"      51 seconds ago   Exited (0) 20 seconds ago             prueba
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ docke r --[K[Kps -a
+[?2004lCONTAINER ID   IMAGE         COMMAND    CREATED          STATUS                      PORTS     NAMES
+7f4faf3aedf1   alpine:3.20   "sh"       58 seconds ago   Exited (0) 28 seconds ago             prueba
+0ad3dc87d2d4   hello-world   "/hello"   6 minutes ago    Exited (0) 6 minutes ago              boring_shirley
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ cok[K[K[Kdocke r statr[K[Krt -ai prueba
+[?2004l/ # [6n/ # [Jecho ""d"a"t"o" ""[J "i"m"p"o"r"t"a"n"t"e"" > tmp[J[J[J/tmp/notañ.[J[J.tc[Jxt
+/ # [6ncat /tn[Jm/ # cat /tmp/[Jno/ # cat /tmp/nota.txt [J
+dato importante
+/ # [6ndocker rem[J[Jm [J[J[J[J[J[J[J[J[J[Jexit
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ dck[K[Kocke r rm prueba
+[?2004lprueba
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ dokc[K[Kcke r [K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ke[Kke r ru [Kn -ir[K[K[K--ir[Kt --name prueba2 alpine:32[K.20 sh
+[?2004lunknown flag: --it
+
+Usage:  docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
+
+Run 'docker run --help' for more information
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ docker run --it --name prueba2 alpine:3.20 sh[1P
+[?2004l/ # [6ncat /tmp/nota.t[J[J.txt
+cat: can't open '/tmp/nota.txt': No such file or directory
+/ # [6nexit
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ docke r volume creato [K[Ke datos-prueba
+[?2004ldatos-prueba
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ docke r run ..[K[K-it --rm .[K-v datos-prueba:/datos alpine-[K:30[K2[K.20 sh
+[?2004l/ # [6neecho[J[J[J[Jcho ""d"a"t"o" "i"m"p"o"r"t"a"n"t"e" ""[J" > dato[J[J[J[J/datos/nota..t[J[Jtxt
+/ # [6nexit
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ docke r ru [Kn .[K.[K-it --re[Km -v da[K[Kdatos [K-preu[K[Kueba:/datos alpine_[K:2[K3-[K--[K[K.30[K[K20 sh
+[?2004l/ # [6ncat /datos/nota.[Jt[J.txt
+dato importante
+/ # [6nexit
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ docke r vl[Kolume ls
+[?2004lDRIVER    VOLUME NAME
+local     datos-prueba
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ docke r vl[Kolue[Kme inspect datos-prueba
+[?2004l[
+    {
+        "CreatedAt": "2026-09-25T18:13:03Z",
+        "Driver": "local",
+        "Labels": null,
+        "Mountpoint": "/var/lib/docker/volumes/datos-prueba/_data",
+        "Name": "datos-prueba",
+        "Options": null,
+        "Scope": "local"
+    }
+]
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ docke r run -d --an[K[Kname-e[Kweb -p 8080:80 nginx ap[K[K[K[Kx:alpine
+[?2004lunknown flag: --name-web
+
+Usage:  docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
+
+Run 'docker run --help' for more information
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ docke r[A]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7mdocke[27m[7mr[27m[7m run -d --name web -p 8080:80 nginx:alpine[27m[A]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ docker run -d --name web -p 8080:80 nginx:alpine
+[?2004lUnable to find image 'nginx:alpine' locally
+alpine: Pulling from library/nginx
+
+[1A[2Ke72112c14215: Pulling fs layer [1B
+[1A[2K64c8194480fe: Pulling fs layer [1B
+[1A[2K745dfb2690dd: Pulling fs layer [1B
+[1A[2K9a9a644fdd6a: Pulling fs layer [1B
+[1A[2Kd9aae54b5831: Pulling fs layer [1B
+[1A[2K6c53d0b2a666: Pulling fs layer [1B
+[1A[2Ke76228b47809: Pulling fs layer [1B[5A[2K745dfb2690dd: Download complete [5B[6A[2K64c8194480fe: Download complete [6B[4A[2K9a9a644fdd6a: Download complete [4B[3A[2Kd9aae54b5831: Download complete [3B[3A[2Kd9aae54b5831: Extracting 1 s[3B[3A[2Kd9aae54b5831: Extracting 1 s[3B[1A[2Ke76228b47809: Download complete [1B[7A[2Ke72112c14215: Downloading  1.049MB/20.53MB[7B[3A[2Kd9aae54b5831: Extracting 1 s[3B[2A[2K6c53d0b2a666: Download complete [2B[7A[2Ke72112c14215: Downloading  4.194MB/20.53MB[7B[3A[2Kd9aae54b5831: Extracting 1 s[3B[7A[2Ke72112c14215: Downloading   7.34MB/20.53MB[7B[3A[2Kd9aae54b5831: Extracting 1 s[3B[7A[2Ke72112c14215: Downloading  9.437MB/20.53MB[7B[3A[2Kd9aae54b5831: Extracting 1 s[3B[7A[2Ke72112c14215: Downloading  11.53MB/20.53MB[7B[3A[2Kd9aae54b5831: Pull complete [3B[2A[2K6c53d0b2a666: Pull complete [2B[7A[2Ke72112c14215: Downloading  13.63MB/20.53MB[7B
+[1A[2K0deea27e58d9: Download complete [1B
+[1A[2Kd54d3939625e: Download complete [1B[7A[2K745dfb2690dd: Pull complete [7B[8A[2K64c8194480fe: Pull complete [8B[6A[2K9a9a644fdd6a: Pull complete [6B[9A[2Ke72112c14215: Downloading  15.73MB/20.53MB[9B[3A[2Ke76228b47809: Pull complete [3B[9A[2Ke72112c14215: Downloading  18.87MB/20.53MB[9B[9A[2Ke72112c14215: Downloading  20.53MB/20.53MB[9B[9A[2Ke72112c14215: Download complete [9B[9A[2Ke72112c14215: Extracting 1 s[9B[9A[2Ke72112c14215: Extracting 1 s[9B[9A[2Ke72112c14215: Extracting 1 s[9B[9A[2Ke72112c14215: Extracting 1 s[9B[9A[2Ke72112c14215: Extracting 1 s[9B[9A[2Ke72112c14215: Pull complete [9BDigest: sha256:1ed1b0e1d7652937d6cbdaf4018c7b6fc009a7dd6c3047351e2eddda745de43f
+Status: Downloaded newer image for nginx:alpine
+0d73ac958f2e39cc06de37dc682439eab22ad34429b6cd6885b7601b097d76fa
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ dok[K[Kck[K[Kocke r ps
+[?2004lCONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS          PORTS                                     NAMES
+0d73ac958f2e   nginx:alpine   "/docker-entrypoint.…"   14 seconds ago   Up 13 seconds   0.0.0.0:8080->80/tcp, [::]:8080->80/tcp   web
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ dco[K[Kocke r port web
+[?2004l80/tcp -> 0.0.0.0:8080
+80/tcp -> [::]:8080
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ dok[Kcke r logs wbe[K[Keb
+[?2004l/docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+/docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+/docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf
+10-listen-on-ipv6-by-default.sh: info: Enabled listen on IPv6 in /etc/nginx/conf.d/default.conf
+/docker-entrypoint.sh: Sourcing /docker-entrypoint.d/15-local-resolvers.envsh
+/docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+/docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
+/docker-entrypoint.sh: Configuration complete; ready for start up
+2026/09/25 18:16:01 [notice] 1#1: using the "epoll" event method
+2026/09/25 18:16:01 [notice] 1#1: nginx/1.31.6
+2026/09/25 18:16:01 [notice] 1#1: built by gcc 15.2.0 (Alpine 15.2.0) 
+2026/09/25 18:16:01 [notice] 1#1: OS: Linux 6.18.33.1-microsoft-standard-WSL2
+2026/09/25 18:16:01 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2026/09/25 18:16:01 [notice] 1#1: start worker processes
+2026/09/25 18:16:01 [notice] 1#1: start worker process 30
+2026/09/25 18:16:01 [notice] 1#1: start worker process 31
+2026/09/25 18:16:01 [notice] 1#1: start worker process 32
+2026/09/25 18:16:01 [notice] 1#1: start worker process 33
+2026/09/25 18:16:01 [notice] 1#1: start worker process 34
+2026/09/25 18:16:01 [notice] 1#1: start worker process 35
+2026/09/25 18:16:01 [notice] 1#1: start worker process 36
+2026/09/25 18:16:01 [notice] 1#1: start worker process 37
+2026/09/25 18:16:01 [notice] 1#1: start worker process 38
+2026/09/25 18:16:01 [notice] 1#1: start worker process 39
+2026/09/25 18:16:01 [notice] 1#1: start worker process 40
+2026/09/25 18:16:01 [notice] 1#1: start worker process 41
+172.17.0.1 - - [25/Sep/2026:18:18:00 +0000] "\x16\x03\x01\x07\x98\x01\x00\x07\x94\x03\x03\xC3\x9A\x84" 400 157 "-" "-" "-"
+172.17.0.1 - - [25/Sep/2026:18:18:00 +0000] "\x16\x03\x01\x07\xB8\x01\x00\x07\xB4\x03\x03\x8B\xD3U\x943wN\x05:O\xAB\x95d7\xD1\x18h\xA6\xE1\xFA\x89'\x8D\xB4\xF8o\x1F\xCB0\x13F; \xED\xA9\xAF\x90\xB2\xED\xE3JU\xAF\xAE\xC6ls\x96\x17\xB5\xA8\x908}\x82\x03@|f\xC2\x81r\xD3\xF2e\x00 zz\x13\x01\x13\x02\x13\x03\xC0+\xC0/\xC0,\xC00\xCC\xA9\xCC\xA8\xC0\x13\xC0\x14\x00\x9C\x00\x9D\x00/\x005\x01\x00\x07K\xFA\xFA\x00\x00\x00+\x00\x07\x06\xCA\xCA\x03\x04\x03\x03\x00#\x00\x00\x00\x17\x00\x00\x00-\x00\x02\x01\x01\x00" 400 157 "-" "-" "-"
+172.17.0.1 - - [25/Sep/2026:18:18:03 +0000] "\x16\x03\x01\x07\x98\x01\x00\x07\x94\x03\x03\xC2&X\x9E\xEB\xAE\x17\xE7\xEA\x01\xED\x10@\xDE\x22\x03\xF4*~E\x9B\xAE\xD0\x8F\xF2C\x95\xFD\x0F\xEE\xCB\x8B e\xE52\x91`U\xFB\xFD(\xA7a\x00,\xC0\x96\x91W\x82\x07.\xC9, \xE3\xE3\xC7\xDC\xCD\x99A\x9E\x09\x00 \xCA\xCA\x13\x01\x13\x02\x13\x03\xC0+\xC0/\xC0,\xC00\xCC\xA9\xCC\xA8\xC0\x13\xC0\x14\x00\x9C\x00\x9D\x00/\x005\x01\x00\x07+" 400 157 "-" "-" "-"
+172.17.0.1 - - [25/Sep/2026:18:18:03 +0000] "\x16\x03\x01\x07\xB8\x01\x00\x07\xB4\x03\x03\xFDSH\xA0\xC5t\x94\x1E\xF9\x5CQo#\xAEB7\xB4\x22q\x08@\xBA\xD5\x97\xAA" 400 157 "-" "-" "-"
+172.17.0.1 - - [25/Sep/2026:18:18:06 +0000] "\x16\x03\x01\x07\xD8\x01\x00\x07\xD4\x03\x03\xE4\xBB\x1B>\xCEz\xF1\x88S\xA7$\x1BY\x85\xB8\xBB\xC5f\xD4\x19\xD4\x90\xCE\x05\xEF~BT\xA9\x82t\xFA \x8D\xC8\xDE{\xDF\x93^ $\xFF\xADU\xCB\x22\xA36\xBE\x1F#\xB7\x99\x19v\xDA\xC3\xFA\xC9\x88O\x80\xAA\x94\x00 JJ\x13\x01\x13\x02\x13\x03\xC0+\xC0/\xC0,\xC00\xCC\xA9\xCC\xA8\xC0\x13\xC0\x14\x00\x9C\x00\x9D\x00/\x005\x01\x00\x07k\xCA\xCA\x00\x00\x00\x0B\x00\x02\x01\x00\x00" 400 157 "-" "-" "-"
+172.17.0.1 - - [25/Sep/2026:18:18:06 +0000] "\x16\x03\x01\x07\xD8\x01\x00\x07\xD4\x03\x03\x18J\xE5{\x1D\x8D\xF6G\xA2\xC9\x1B\x5C\xCE\x15/\x9B\xFC\xAE\x89\x16ZC\x91\xF6\xD4\x06,\x98\x9D8;U \x08\xEB[b\x96\xFB.\xF2\x96\x86\x1A\x13\xDDJ\xB8\x02BRf8\xA5\x18\x1Ap\x8B\x02\x8E\xB7L\x18\x92[\x00 zz\x13\x01\x13\x02\x13\x03\xC0+\xC0/\xC0,\xC00\xCC\xA9\xCC\xA8\xC0\x13\xC0\x14\x00\x9C\x00\x9D\x00/\x005\x01\x00\x07k\xFA\xFA\x00\x00\x00+\x00\x07\x06\x9A\x9A\x03\x04\x03\x03\x00\x0B\x00\x02\x01\x00\x00\x12\x00\x00\xFE" 400 157 "-" "-" "-"
+172.17.0.1 - - [25/Sep/2026:18:18:06 +0000] "\x16\x03\x01\x07x\x01\x00\x07t\x03\x03\xC8\xC3\x1C\xA7\x84\x06_\xCB_\x94\x1F\x81\x0E|\xA4\xE0\xD3|\x1AC[\x81\xA6\xB2\x9A\xDB&n\x83\x81L\xF1 \xF6!\xF9\xB63\x87\x83\x01\xC4.\x83-\xE7\xE3\xF1\x01\x933\x97X\x87\x80f\xD4D|\xA9\xB2\x8D\xBDn\x0E\x00 ::\x13\x01\x13\x02\x13\x03\xC0+\xC0/\xC0,\xC00\xCC\xA9\xCC\xA8\xC0\x13\xC0\x14\x00\x9C\x00\x9D\x00/\x005\x01\x00\x07\x0B" 400 157 "-" "-" "-"
+172.17.0.1 - - [25/Sep/2026:18:18:06 +0000] "\x16\x03\x01\x07\xB8\x01\x00\x07\xB4\x03\x03\x92\xC67\xFF\x8A\x8C\xDA9)\xBA\x9E\x9BY\xA8}:\xF3\x08\xAFv\x92\xA0\xAD\xA3\x83\x01\xF1\xC8ut{\x1F W\xC4y\xD6%\x19\x12\xF9\x8C]\xDB\xBB\x06k\x1C\xDBy\xA6\xBE\xCEV6/\xFA\x99w:\xEBY\xFA.\x1D\x00 zz\x13\x01\x13\x02\x13\x03\xC0+\xC0/\xC0,\xC00\xCC\xA9\xCC\xA8\xC0\x13\xC0\x14\x00\x9C\x00\x9D\x00/\x005\x01\x00\x07K\xEA\xEA\x00\x00\xFF\x01\x00\x01\x00\xCA4\x00\xBA\x00\xB8\x05\x82\xDF\x13\x02\x01\x05\x82\xDF\x13\x02\x06\x05\x82\xDF\x13\x02" 400 157 "-" "-" "-"
+172.17.0.1 - - [25/Sep/2026:18:18:06 +0000] "\x16\x03\x01\x07\x98\x01\x00\x07\x94\x03\x03\x1DQ" 400 157 "-" "-" "-"
+172.17.0.1 - - [25/Sep/2026:18:18:06 +0000] "\x16\x03\x01\x07\xB8\x01\x00\x07\xB4\x03\x03\x18$\x5CU\xF9\x83\x95\xDF\xF3\x17\xCB\xE2\xB4\xF2\x11\xF9\x017\xA3+\xDCP\xF0Hp\xBB\xD5#X" 400 157 "-" "-" "-"
+172.17.0.1 - - [25/Sep/2026:18:18:06 +0000] "\x16\x03\x01\x07\xB8\x01\x00\x07\xB4\x03\x03\x9E\xEF\xAD6\x96\xE1p1S\xA6\x1A_i\xA2\xBA\xC2\xCFb\xBE\xCC\xA5\xFC\xE5\xB1\xFE\x84\xAA9u0\x17b *>\xD3\x17\xCF\xF5\xB1\xEA\x80|\xAD<gU~\xDB\x7F[z\xF1\x090N\x1B" 400 157 "-" "-" "-"
+172.17.0.1 - - [25/Sep/2026:18:18:06 +0000] "\x16\x03\x01\x07x\x01\x00\x07t\x03\x03\xEF\xAE&\x96r5\x89\xDCy\x96\xB4\x22\x84j\xA6\x83\xD3\xB2\xFA\x9B\x91F\xA2\xD5G\xA2[\xEF\xCE\x83%\x1E 5\x13I\x08\xFD\x9D\x85Q\xF5\x9E\xA1\xBF4Q`*\xBC\xE8x\xB7\xF3igU\xCF\x1Fz\xC7#\xC4\x1D\x0B\x00 jj\x13\x01\x13\x02\x13\x03\xC0+\xC0/\xC0,\xC00\xCC\xA9\xCC\xA8\xC0\x13\xC0\x14\x00\x9C\x00\x9D\x00/\x005\x01\x00\x07\x0B\xFA\xFA\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00#\x00\x00\xFF\x01\x00\x01\x00\x00\x10\x00\x0E\x00\x0C\x02h2\x08http/1.1\x00+\x00\x07\x06\xAA\xAA\x03\x04\x03\x03\x00\x17\x00\x00\x00\x12\x00\x00D\xCD\x00\x05\x00\x03\x02h2\xFE" 400 157 "-" "-" "-"
+172.17.0.1 - - [25/Sep/2026:18:18:06 +0000] "\x16\x03\x01\x07x\x01\x00\x07t\x03\x03Q\x05}F]\xCA\xF5LO\x87" 400 157 "-" "-" "-"
+172.17.0.1 - - [25/Sep/2026:18:18:06 +0000] "\x16\x03\x01\x07\x98\x01\x00\x07\x94\x03\x03\xDACVo\xF8,\xD0[\x9Ft\xBF\xEC\xE8\x85Z\x86\xA1\xF3n\x22\x80\xD0\xD9\xAE\xD2\xE9\xD9\x98\x9E\xAD\xE6\xB0 \xEB@\x1BN\x9D\xD4\xFE\x1D\xEF\xCD^" 400 157 "-" "-" "-"
+172.17.0.1 - - [25/Sep/2026:18:18:06 +0000] "\x16\x03\x01\x07\xB8\x01\x00\x07\xB4\x03\x03\x9A\xEF\x17\xC1&\x04\x8E\xB7\xA4g\x00een\xB2\x0C\x9A\xC5N09\xDF^\x99\xFD@\xF4d\xE9\xFDD\x10 e$\xD0\x93}@\xF8\x04\x80\x0E!y\xDA=s\x9C\xA1o\xA4\x8C\x8D\xAC\x08\x9B@\xBA\xA7pNm\xD7p\x00 ::\x13\x01\x13\x02\x13\x03\xC0+\xC0/\xC0,\xC00\xCC\xA9\xCC\xA8\xC0\x13\xC0\x14\x00\x9C\x00\x9D\x00/\x005\x01\x00\x07K\xBA\xBA\x00\x00\x00" 400 157 "-" "-" "-"
+172.17.0.1 - - [25/Sep/2026:18:18:06 +0000] "\x16\x03\x01\x07\xD8\x01\x00\x07\xD4\x03\x03\xF2\x80uy\x91\xA1\x90\xD4\x92B \x9Aa\xCA\x0F{]\x01\xF2\x22Y\x1E\xB5\x82\xA9\xEC\x88\xB0\xBA\x8C\xEE\x96 \x98k\x8F9\x1F4\xAD\xBC \xE1\x9A\xA5\xD4K\xEDo|\xF4\x1E\xFA\x9A\xEA\xD9\x1A\x04\xFA\xCD\xF0\xF0i}\x96\x00 \xDA\xDA\x13\x01\x13\x02\x13\x03\xC0+\xC0/\xC0,\xC00\xCC\xA9\xCC\xA8\xC0\x13\xC0\x14\x00\x9C\x00\x9D\x00/\x005\x01\x00\x07k\x1A\x1A\x00\x00\x003\x04\xEF\x04\xEDJJ\x00\x01\x00\x11\xEC\x04\xC0\x03Y\x9D\xD4\x87y\xC8\x89\x19\x98\xD6U\xAEjK\xCB3E\x19\xC9\x8B\x1D\xD4;>gd\x88T\xBF\x22\x99+\x8B\xC9\xA1\x0E\xD7\xB5]eX\xDB\xA5tp\xB0y\xB7jYn|+\xF2\xC5\x7F\xE1\xA3\x08\xC3\xAB\xA2\xE7@\x91\xE7\x89\x10\x92\xAC#\xB5\xC8\x95\x7F\x16\x16\x80\xF7\x92M&\x8C\xB7k\xAE-\xD9T\xA0\xB8\x83\xF3\xC9R\x8BQ\xB7\xF0\xA6\x00\x9A\x9A*T\xB9O&\x95\x1D\xC9 \x1A\xAA\x99\x09\x93\xA8uo\xB5\x8C\xF3|j&\xFA\x84)\xBC\xB51\x90\x03\xD8\x08\xC8y\xCCq+0\xB9e\x1C<\xBE\xD4%\x5Cl\xA1\xD7|\x03\x1Aa\x86k\xD9\xCDF\xEA\x9F\x0E\x11\x8F\xC7\x22\x11o\xF5>\xA3\x88\x99\x18,V\xE5bz\x87\x8A\x8CN%7\x8B\xA0To\xA1nt\x9A\xA2k\xB2\xC1\xAD\x82tM;v:\x12\xC3HH\x8A\xC0BA\xD9\xE7\xB0VY\x809q\xB4H6\xAE@VX=\x15Ba\xBA~\x14GR\xEE\xF7>A\xE4\x99d\xF2p+Ez\x0B\xE5\x1A\x87$_WC\xC3\x22\x5C\x13\xDD\x07#c\xB3U\x10K7:<\x7Fs\xB2b\xCA\x11\xAC" 400 157 "-" "-" "-"
+172.17.0.1 - - [25/Sep/2026:18:18:23 +0000] "GET / HTTP/1.1" 200 896 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36" "-"
+172.17.0.1 - - [25/Sep/2026:18:18:23 +0000] "GET /favicon.ico HTTP/1.1" 404 555 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36" "-"
+2026/09/25 18:18:23 [error] 31#31: *17 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ dsdoc ker[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[Kdockr e[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce r logs web
+[?2004l/docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+/docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+/docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf
+10-listen-on-ipv6-by-default.sh: info: Enabled listen on IPv6 in /etc/nginx/conf.d/default.conf
+/docker-entrypoint.sh: Sourcing /docker-entrypoint.d/15-local-resolvers.envsh
+/docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+/docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
+/docker-entrypoint.sh: Configuration complete; ready for start up
+2026/09/25 18:16:01 [notice] 1#1: using the "epoll" event method
+2026/09/25 18:16:01 [notice] 1#1: nginx/1.31.6
+2026/09/25 18:16:01 [notice] 1#1: built by gcc 15.2.0 (Alpine 15.2.0) 
+2026/09/25 18:16:01 [notice] 1#1: OS: Linux 6.18.33.1-microsoft-standard-WSL2
+2026/09/25 18:16:01 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2026/09/25 18:16:01 [notice] 1#1: start worker processes
+2026/09/25 18:16:01 [notice] 1#1: start worker process 30
+2026/09/25 18:16:01 [notice] 1#1: start worker process 31
+2026/09/25 18:16:01 [notice] 1#1: start worker process 32
+2026/09/25 18:16:01 [notice] 1#1: start worker process 33
+2026/09/25 18:16:01 [notice] 1#1: start worker process 34
+2026/09/25 18:16:01 [notice] 1#1: start worker process 35
+2026/09/25 18:16:01 [notice] 1#1: start worker process 36
+2026/09/25 18:16:01 [notice] 1#1: start worker process 37
+2026/09/25 18:16:01 [notice] 1#1: start worker process 38
+2026/09/25 18:16:01 [notice] 1#1: start worker process 39
+2026/09/25 18:16:01 [notice] 1#1: start worker process 40
+2026/09/25 18:16:01 [notice] 1#1: start worker process 41
+172.17.0.1 - - [25/Sep/2026:18:18:00 +0000] "\x16\x03\x01\x07\x98\x01\x00\x07\x94\x03\x03\xC3\x9A\x84" 400 157 "-" "-" "-"
+172.17.0.1 - - [25/Sep/2026:18:18:00 +0000] "\x16\x03\x01\x07\xB8\x01\x00\x07\xB4\x03\x03\x8B\xD3U\x943wN\x05:O\xAB\x95d7\xD1\x18h\xA6\xE1\xFA\x89'\x8D\xB4\xF8o\x1F\xCB0\x13F; \xED\xA9\xAF\x90\xB2\xED\xE3JU\xAF\xAE\xC6ls\x96\x17\xB5\xA8\x908}\x82\x03@|f\xC2\x81r\xD3\xF2e\x00 zz\x13\x01\x13\x02\x13\x03\xC0+\xC0/\xC0,\xC00\xCC\xA9\xCC\xA8\xC0\x13\xC0\x14\x00\x9C\x00\x9D\x00/\x005\x01\x00\x07K\xFA\xFA\x00\x00\x00+\x00\x07\x06\xCA\xCA\x03\x04\x03\x03\x00#\x00\x00\x00\x17\x00\x00\x00-\x00\x02\x01\x01\x00" 400 157 "-" "-" "-"
+172.17.0.1 - - [25/Sep/2026:18:18:03 +0000] "\x16\x03\x01\x07\x98\x01\x00\x07\x94\x03\x03\xC2&X\x9E\xEB\xAE\x17\xE7\xEA\x01\xED\x10@\xDE\x22\x03\xF4*~E\x9B\xAE\xD0\x8F\xF2C\x95\xFD\x0F\xEE\xCB\x8B e\xE52\x91`U\xFB\xFD(\xA7a\x00,\xC0\x96\x91W\x82\x07.\xC9, \xE3\xE3\xC7\xDC\xCD\x99A\x9E\x09\x00 \xCA\xCA\x13\x01\x13\x02\x13\x03\xC0+\xC0/\xC0,\xC00\xCC\xA9\xCC\xA8\xC0\x13\xC0\x14\x00\x9C\x00\x9D\x00/\x005\x01\x00\x07+" 400 157 "-" "-" "-"
+172.17.0.1 - - [25/Sep/2026:18:18:03 +0000] "\x16\x03\x01\x07\xB8\x01\x00\x07\xB4\x03\x03\xFDSH\xA0\xC5t\x94\x1E\xF9\x5CQo#\xAEB7\xB4\x22q\x08@\xBA\xD5\x97\xAA" 400 157 "-" "-" "-"
+172.17.0.1 - - [25/Sep/2026:18:18:06 +0000] "\x16\x03\x01\x07\xD8\x01\x00\x07\xD4\x03\x03\xE4\xBB\x1B>\xCEz\xF1\x88S\xA7$\x1BY\x85\xB8\xBB\xC5f\xD4\x19\xD4\x90\xCE\x05\xEF~BT\xA9\x82t\xFA \x8D\xC8\xDE{\xDF\x93^ $\xFF\xADU\xCB\x22\xA36\xBE\x1F#\xB7\x99\x19v\xDA\xC3\xFA\xC9\x88O\x80\xAA\x94\x00 JJ\x13\x01\x13\x02\x13\x03\xC0+\xC0/\xC0,\xC00\xCC\xA9\xCC\xA8\xC0\x13\xC0\x14\x00\x9C\x00\x9D\x00/\x005\x01\x00\x07k\xCA\xCA\x00\x00\x00\x0B\x00\x02\x01\x00\x00" 400 157 "-" "-" "-"
+172.17.0.1 - - [25/Sep/2026:18:18:06 +0000] "\x16\x03\x01\x07\xD8\x01\x00\x07\xD4\x03\x03\x18J\xE5{\x1D\x8D\xF6G\xA2\xC9\x1B\x5C\xCE\x15/\x9B\xFC\xAE\x89\x16ZC\x91\xF6\xD4\x06,\x98\x9D8;U \x08\xEB[b\x96\xFB.\xF2\x96\x86\x1A\x13\xDDJ\xB8\x02BRf8\xA5\x18\x1Ap\x8B\x02\x8E\xB7L\x18\x92[\x00 zz\x13\x01\x13\x02\x13\x03\xC0+\xC0/\xC0,\xC00\xCC\xA9\xCC\xA8\xC0\x13\xC0\x14\x00\x9C\x00\x9D\x00/\x005\x01\x00\x07k\xFA\xFA\x00\x00\x00+\x00\x07\x06\x9A\x9A\x03\x04\x03\x03\x00\x0B\x00\x02\x01\x00\x00\x12\x00\x00\xFE" 400 157 "-" "-" "-"
+172.17.0.1 - - [25/Sep/2026:18:18:06 +0000] "\x16\x03\x01\x07x\x01\x00\x07t\x03\x03\xC8\xC3\x1C\xA7\x84\x06_\xCB_\x94\x1F\x81\x0E|\xA4\xE0\xD3|\x1AC[\x81\xA6\xB2\x9A\xDB&n\x83\x81L\xF1 \xF6!\xF9\xB63\x87\x83\x01\xC4.\x83-\xE7\xE3\xF1\x01\x933\x97X\x87\x80f\xD4D|\xA9\xB2\x8D\xBDn\x0E\x00 ::\x13\x01\x13\x02\x13\x03\xC0+\xC0/\xC0,\xC00\xCC\xA9\xCC\xA8\xC0\x13\xC0\x14\x00\x9C\x00\x9D\x00/\x005\x01\x00\x07\x0B" 400 157 "-" "-" "-"
+172.17.0.1 - - [25/Sep/2026:18:18:06 +0000] "\x16\x03\x01\x07\xB8\x01\x00\x07\xB4\x03\x03\x92\xC67\xFF\x8A\x8C\xDA9)\xBA\x9E\x9BY\xA8}:\xF3\x08\xAFv\x92\xA0\xAD\xA3\x83\x01\xF1\xC8ut{\x1F W\xC4y\xD6%\x19\x12\xF9\x8C]\xDB\xBB\x06k\x1C\xDBy\xA6\xBE\xCEV6/\xFA\x99w:\xEBY\xFA.\x1D\x00 zz\x13\x01\x13\x02\x13\x03\xC0+\xC0/\xC0,\xC00\xCC\xA9\xCC\xA8\xC0\x13\xC0\x14\x00\x9C\x00\x9D\x00/\x005\x01\x00\x07K\xEA\xEA\x00\x00\xFF\x01\x00\x01\x00\xCA4\x00\xBA\x00\xB8\x05\x82\xDF\x13\x02\x01\x05\x82\xDF\x13\x02\x06\x05\x82\xDF\x13\x02" 400 157 "-" "-" "-"
+172.17.0.1 - - [25/Sep/2026:18:18:06 +0000] "\x16\x03\x01\x07\x98\x01\x00\x07\x94\x03\x03\x1DQ" 400 157 "-" "-" "-"
+172.17.0.1 - - [25/Sep/2026:18:18:06 +0000] "\x16\x03\x01\x07\xB8\x01\x00\x07\xB4\x03\x03\x18$\x5CU\xF9\x83\x95\xDF\xF3\x17\xCB\xE2\xB4\xF2\x11\xF9\x017\xA3+\xDCP\xF0Hp\xBB\xD5#X" 400 157 "-" "-" "-"
+172.17.0.1 - - [25/Sep/2026:18:18:06 +0000] "\x16\x03\x01\x07\xB8\x01\x00\x07\xB4\x03\x03\x9E\xEF\xAD6\x96\xE1p1S\xA6\x1A_i\xA2\xBA\xC2\xCFb\xBE\xCC\xA5\xFC\xE5\xB1\xFE\x84\xAA9u0\x17b *>\xD3\x17\xCF\xF5\xB1\xEA\x80|\xAD<gU~\xDB\x7F[z\xF1\x090N\x1B" 400 157 "-" "-" "-"
+172.17.0.1 - - [25/Sep/2026:18:18:06 +0000] "\x16\x03\x01\x07x\x01\x00\x07t\x03\x03\xEF\xAE&\x96r5\x89\xDCy\x96\xB4\x22\x84j\xA6\x83\xD3\xB2\xFA\x9B\x91F\xA2\xD5G\xA2[\xEF\xCE\x83%\x1E 5\x13I\x08\xFD\x9D\x85Q\xF5\x9E\xA1\xBF4Q`*\xBC\xE8x\xB7\xF3igU\xCF\x1Fz\xC7#\xC4\x1D\x0B\x00 jj\x13\x01\x13\x02\x13\x03\xC0+\xC0/\xC0,\xC00\xCC\xA9\xCC\xA8\xC0\x13\xC0\x14\x00\x9C\x00\x9D\x00/\x005\x01\x00\x07\x0B\xFA\xFA\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00#\x00\x00\xFF\x01\x00\x01\x00\x00\x10\x00\x0E\x00\x0C\x02h2\x08http/1.1\x00+\x00\x07\x06\xAA\xAA\x03\x04\x03\x03\x00\x17\x00\x00\x00\x12\x00\x00D\xCD\x00\x05\x00\x03\x02h2\xFE" 400 157 "-" "-" "-"
+172.17.0.1 - - [25/Sep/2026:18:18:06 +0000] "\x16\x03\x01\x07x\x01\x00\x07t\x03\x03Q\x05}F]\xCA\xF5LO\x87" 400 157 "-" "-" "-"
+172.17.0.1 - - [25/Sep/2026:18:18:06 +0000] "\x16\x03\x01\x07\x98\x01\x00\x07\x94\x03\x03\xDACVo\xF8,\xD0[\x9Ft\xBF\xEC\xE8\x85Z\x86\xA1\xF3n\x22\x80\xD0\xD9\xAE\xD2\xE9\xD9\x98\x9E\xAD\xE6\xB0 \xEB@\x1BN\x9D\xD4\xFE\x1D\xEF\xCD^" 400 157 "-" "-" "-"
+172.17.0.1 - - [25/Sep/2026:18:18:06 +0000] "\x16\x03\x01\x07\xB8\x01\x00\x07\xB4\x03\x03\x9A\xEF\x17\xC1&\x04\x8E\xB7\xA4g\x00een\xB2\x0C\x9A\xC5N09\xDF^\x99\xFD@\xF4d\xE9\xFDD\x10 e$\xD0\x93}@\xF8\x04\x80\x0E!y\xDA=s\x9C\xA1o\xA4\x8C\x8D\xAC\x08\x9B@\xBA\xA7pNm\xD7p\x00 ::\x13\x01\x13\x02\x13\x03\xC0+\xC0/\xC0,\xC00\xCC\xA9\xCC\xA8\xC0\x13\xC0\x14\x00\x9C\x00\x9D\x00/\x005\x01\x00\x07K\xBA\xBA\x00\x00\x00" 400 157 "-" "-" "-"
+172.17.0.1 - - [25/Sep/2026:18:18:06 +0000] "\x16\x03\x01\x07\xD8\x01\x00\x07\xD4\x03\x03\xF2\x80uy\x91\xA1\x90\xD4\x92B \x9Aa\xCA\x0F{]\x01\xF2\x22Y\x1E\xB5\x82\xA9\xEC\x88\xB0\xBA\x8C\xEE\x96 \x98k\x8F9\x1F4\xAD\xBC \xE1\x9A\xA5\xD4K\xEDo|\xF4\x1E\xFA\x9A\xEA\xD9\x1A\x04\xFA\xCD\xF0\xF0i}\x96\x00 \xDA\xDA\x13\x01\x13\x02\x13\x03\xC0+\xC0/\xC0,\xC00\xCC\xA9\xCC\xA8\xC0\x13\xC0\x14\x00\x9C\x00\x9D\x00/\x005\x01\x00\x07k\x1A\x1A\x00\x00\x003\x04\xEF\x04\xEDJJ\x00\x01\x00\x11\xEC\x04\xC0\x03Y\x9D\xD4\x87y\xC8\x89\x19\x98\xD6U\xAEjK\xCB3E\x19\xC9\x8B\x1D\xD4;>gd\x88T\xBF\x22\x99+\x8B\xC9\xA1\x0E\xD7\xB5]eX\xDB\xA5tp\xB0y\xB7jYn|+\xF2\xC5\x7F\xE1\xA3\x08\xC3\xAB\xA2\xE7@\x91\xE7\x89\x10\x92\xAC#\xB5\xC8\x95\x7F\x16\x16\x80\xF7\x92M&\x8C\xB7k\xAE-\xD9T\xA0\xB8\x83\xF3\xC9R\x8BQ\xB7\xF0\xA6\x00\x9A\x9A*T\xB9O&\x95\x1D\xC9 \x1A\xAA\x99\x09\x93\xA8uo\xB5\x8C\xF3|j&\xFA\x84)\xBC\xB51\x90\x03\xD8\x08\xC8y\xCCq+0\xB9e\x1C<\xBE\xD4%\x5Cl\xA1\xD7|\x03\x1Aa\x86k\xD9\xCDF\xEA\x9F\x0E\x11\x8F\xC7\x22\x11o\xF5>\xA3\x88\x99\x18,V\xE5bz\x87\x8A\x8CN%7\x8B\xA0To\xA1nt\x9A\xA2k\xB2\xC1\xAD\x82tM;v:\x12\xC3HH\x8A\xC0BA\xD9\xE7\xB0VY\x809q\xB4H6\xAE@VX=\x15Ba\xBA~\x14GR\xEE\xF7>A\xE4\x99d\xF2p+Ez\x0B\xE5\x1A\x87$_WC\xC3\x22\x5C\x13\xDD\x07#c\xB3U\x10K7:<\x7Fs\xB2b\xCA\x11\xAC" 400 157 "-" "-" "-"
+172.17.0.1 - - [25/Sep/2026:18:18:23 +0000] "GET / HTTP/1.1" 200 896 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36" "-"
+172.17.0.1 - - [25/Sep/2026:18:18:23 +0000] "GET /favicon.ico HTTP/1.1" 404 555 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36" "-"
+2026/09/25 18:18:23 [error] 31#31: *17 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ doc[K[Kco[K[Kcok[K[K[Kp[Kocke r logs --tal[Kil 3 web
+[?2004l172.17.0.1 - - [25/Sep/2026:18:18:23 +0000] "GET / HTTP/1.1" 200 896 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36" "-"
+172.17.0.1 - - [25/Sep/2026:18:18:23 +0000] "GET /favicon.ico HTTP/1.1" 404 555 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36" "-"
+2026/09/25 18:18:23 [error] 31#31: *17 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ do[K[Kdocke r exec w[K[Kweb[K[K[K web ls //[KusrY[K/share/nginx/html
+[?2004l50x.html
+index.html
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ docke r stats --no-streamw [K[K web
+[?2004lCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+0d73ac958f2e   web       0.00%     12.93MiB / 7.602GiB   0.17%     40.2kB / 13.1kB   8.85MB / 12.3kB   13
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ docke r stp[Ko`p [K[K[K[Kp[Kop web
+[?2004lweb
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ docke r rm web prueba 2 $()d)c)o)k)e)r)[1P)[1P)[1P)[1P)[1P)o)c)k)e)r) )p)s) )-)a)q) )-)-)d)i)l)[1P)[1P)[1P)f)i)l)t)e)r) )")")[1@a[1@c[1P[1@c[1@e[1P[1P[1@n[1@c[1@e[1@s[1@t[1@o[1@r[1@-[1P[1@=[1@h[1@e[1@l[1@l[1@o[1@-[1@w[1@o[1@r[1@l[1@d
+[?2004lweb
+0ad3dc87d2d4
+Error response from daemon: No such container: prueba
+Error response from daemon: No such container: 2
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ docke r volume rm datos-prueba
+[?2004ldatos-prueba
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ docke r systema [K[K df
+[?2004lTYPE            TOTAL     ACTIVE    SIZE      RECLAIMABLE
+Images          4         1         106.8MB   81.62MB (76%)
+Containers      1         0         12.29kB   12.29kB (100%)
+Local Volumes   0         0         0B        0B
+Build Cache     0         0         0B        0B
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ exit[K[K[K[Kexit
+[?2004lexit
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00m$ cat $ EVID/sci[Krit[Kpt/*_03-tutorial-docker-[K.sci[Kript.log |m[K more
+[?2004lScript started on 2026-09-25 20:01:35+02:00 [TERM="xterm-256color" 
+TTY="/dev/pts/10" COLUMNS="67" LINES="12"]
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database
+-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/orac
+le-database-lab[00m$ 
+
+[?2004l
+[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database
+-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/orac
+le-database-lab[00m$ eceh[K[Kc[K[Kcho  
+
+[7m--More--[27m[?2004l[K
+[7m--More--[27m[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database
+[7m--More--[27m-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/orac
+[7m--More--[27mle-database-lab[00m$ 
+[7m--More--[27m[?2004l[K
+[7m--More--[27mGARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/oracle-database-lab[00
+[7m--More--[27mm$ cd ~/oracle-database-lab[K
+[7m--More--[27m[K
+[7m--More--[27m[K
+[7m--More--[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[
+[7m--More--[27mC[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/o[1P[A[K
+[7m--More--[27m[K
+[7m--More--[27m[?2004l[K
+[7m--More--[27mC[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[7m--More--[27m[C[C[C[C[C[K
+[7m--More--[27m[K
+[7m--More--[27m[?2004l[K
+[7m--More--[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[
+[7m--More--[27mC[C[C[C[C[C[C[K
+[7m--More--[27m[K
+[7m--More--[27m(ts)_03-tutorial-docker.script.log"[27m[A[K
+[7m--More--[27m[?2004l[K
+[7m--More--[27m[?2004l[K
+[7m--More--[27m Version:           29.8.0
+[7m--More--[27m API version:       1.56
+[7m--More--[27m Go version:        go1.26.8
+[7m--More--[27m Git commit:        88096ef
+[7m--More--[27m Built:             Thu Sep  3 21:49:51 2026
+[7m--More--[27m OS/Arch:           linux/amd64
+[7m--More--[27m Context:           default
+[7m--More--[27m[K
+[7m--More--[27mServer: Docker Desktop 4.92.0 (240144)
+[7m--More--[27m Engine:
+[7m--More--[27m  Version:          29.8.0
+[7m--More--[27m  API version:      1.56 (minimum version 1.40)
+[7m--More--[27m  Go version:       go1.26.8
+[7m--More--[27m  Git commit:       3ce5872
+[7m--More--[27m  Built:            Thu Sep  3 21:51:20 2026
+[7m--More--[27m  OS/Arch:          linux/amd64
+[7m--More--[27m  Experimental:     false
+[7m--More--[27m containerd:
+[7m--More--[27m  Version:          v2.3.5
+[7m--More--[27m  GitCommit:        1294c24a7da8e5a793ed378161673abe94118892
+[7m--More--[27m runc:[K
+[7m--More--[27m  Version:          1.5.1
+[7m--More--[27m  GitCommit:        v1.5.1-0-g8f2685a4
+[7m--More--[27m docker-init:
+[7m--More--[27m  Version:          0.19.0
+[7m--More--[27m  GitCommit:        de40ad0
+[7m--More--[27m[?2004h]0;garmar@GARMAR: ~/UCAM_projects/ADMON_BBDD/oracle-database
+[7m--More--[27m-lab[01;32mgarmar@GARMAR[00m:[01;34m~/UCAM_projects/ADMON_BBDD/orac
+[7m--Mor
