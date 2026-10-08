@@ -1,3 +1,0 @@
-El contenedor oralab-26ai ya existe; no se crea de nuevo.
-CONTAINER ID   IMAGE                                                COMMAND                  CREATED      STATUS    PORTS     NAMES
-26dddb590dba   container-registry.oracle.com/database/free:latest   "/bin/bash -c $SCRIP…"   4 days ago   Created             oralab-26ai
