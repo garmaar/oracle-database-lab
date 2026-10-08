@@ -12,4 +12,11 @@ export SERVICE_CDB="FREE"
 export SERVICE_PDB="FREEPDB1"
 export BACKUP_DIR="$(pwd)/backups"
 export EVID="docs/bitacora/evidencia"
+ts() { date -u +%Y%m%dT%H%M%SZ; }
 # Marca de tiempo ISO 8601 en UTC para nombrar la evidencia: $(ts)
+
+# ORDS (Parte M): middleware instalado en Linux, fuera del contenedor de la base
+export ORDS_HOME="/opt/oracle/ords"
+export ORDS_CONFIG="/etc/ords/config"
+export ORDS_LOGS="/var/log/ords"
+export ORDS_PORT=8080
