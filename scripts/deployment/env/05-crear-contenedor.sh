@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 set -euo pipefail
 source scripts/deployment/env/00-config.sh
 set -a; source config/.env; set +a
