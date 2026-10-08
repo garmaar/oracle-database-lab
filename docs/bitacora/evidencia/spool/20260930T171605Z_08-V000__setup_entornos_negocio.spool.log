@@ -1,0 +1,33 @@
+
+Session altered.
+
+
+Tablespace created.
+
+
+User created.
+
+
+Grant succeeded.
+
+
+Tablespace created.
+
+
+User created.
+
+
+Grant succeeded.
+
+
+Tablespace created.
+
+SP2-0734: unknown command beginning "DEFAULT TA..." - rest of line ignored.
+Help: https://docs.oracle.com/error-help/db/sp2-0734/
+GRANT DB_DEVELOPER_ROLE, CREATE SESSION TO admin_retail
+                                           *
+ERROR at line 1:
+ORA-01917: user or role 'ADMIN_RETAIL' does not exist
+Help: https://docs.oracle.com/error-help/db/ora-01917/
+
+
