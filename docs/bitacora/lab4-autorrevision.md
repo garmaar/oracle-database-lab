@@ -67,12 +67,16 @@ V000 y V001 se compararon byte a byte con el commit `03321af`: **idénticas**. V
 
 ## GitHub y pendientes
 
-Issue: [#4](https://github.com/garmaar/oracle-database-lab/issues/4). Rama: `chore/4-oracle-dba-workflow-i`. La historia contiene commits separados de A a N, el de respuestas O y el ajuste OMF del reto C en su propio commit. `lab3-final` identifica `03321af`.
+Issue: [#4](https://github.com/garmaar/oracle-database-lab/issues/4). Pull Request: [#5](https://github.com/garmaar/oracle-database-lab/pull/5), abierto hacia `main` desde `chore/4-oracle-dba-workflow-i`. La historia contiene commits separados de A a N, el de respuestas O y el ajuste OMF del reto C en su propio commit. `lab3-final` identifica `03321af` y se ha publicado en GitHub.
 
-La revisión técnica de este informe está realizada. No se ha utilizado otra identidad, no se han creado comentarios atribuidos a compañeros y no existe una aprobación externa que pueda darse por recibida.
+La revisión técnica de este informe está realizada. No se ha utilizado otra identidad, no se han creado comentarios atribuidos a compañeros y no existe una aprobación externa que pueda darse por recibida. El PR identifica la revisión como autorrevisión de Pablo García Martínez y enlaza este informe.
+
+La validación documental final comprobó los enlaces y todos los números de evidencia; la auditoría de seguridad se repitió con los documentos añadidos al índice. El [verificador de entrega](lab4/evidencia/script/20261026T172827Z_16-verificacion-entrega.script.log) volvió a terminar TODO OK. [Revisión documental](lab4/evidencia/script/20261026T172827Z_16-revision-documental.script.log) y [seguridad previa a publicación](lab4/evidencia/script/20261026T172827Z_16-seguridad-prepublicacion.script.log).
+
+Se comprobó sintaxis de todos los scripts Bash y formato de código/documentación. Los logs y volcados nativos contienen espacios de alineación y líneas finales tal como los emitieron SQLcl/Oracle: se conservan sin reformatear para mantener la evidencia original.
 
 Quedan pendientes la revisión cruzada o aceptación expresa del profesor de esta modalidad, la fusión del PR mediante merge commit, el cierre automático del Issue y la publicación de `lab4-final` sobre el resultado fusionado. No se marca el checklist de «main tras el merge» como cumplido mientras la entrega siga en la rama. La etiqueta final debe representar ese estado y no se anticipa al merge.
 
 ## Entrega en Canvas
 
-El artefacto principal del enunciado es el **enlace al Pull Request** de este laboratorio, que reúne código, evidencias e informes. El informe de autorrevisión es documentación complementaria y no sustituye el PR. La entrega debe advertir el estado real de la revisión cruzada y de la fusión. No se debe adjuntar `config/.env`, el backup ni el password file.
+Entregar en Canvas: **https://github.com/garmaar/oracle-database-lab/pull/5**. Es el artefacto principal del enunciado y reúne código, evidencias e informes. El informe de autorrevisión es documentación complementaria y no sustituye el PR. La entrega debe advertir el estado real de la revisión cruzada y de la fusión. No se debe adjuntar `config/.env`, el backup ni el password file.
