@@ -67,7 +67,7 @@ V000 y V001 se compararon byte a byte con el commit `03321af`: **idénticas**. V
 
 ## GitHub y pendientes
 
-Issue: [#4](https://github.com/garmaar/oracle-database-lab/issues/4). Pull Request: [#5](https://github.com/garmaar/oracle-database-lab/pull/5), abierto hacia `main` desde `chore/4-oracle-dba-workflow-i`. La historia contiene commits separados de A a N, el de respuestas O y el ajuste OMF del reto C en su propio commit. `lab3-final` identifica `03321af` y se ha publicado en GitHub.
+Issue: [#4](https://github.com/garmaar/oracle-database-lab/issues/4). Pull Request: [#5](https://github.com/garmaar/oracle-database-lab/pull/5), hacia `main` desde `chore/4-oracle-dba-workflow-i`. La historia contiene commits separados de A a N, el de respuestas O y el ajuste OMF del reto C en su propio commit. `lab3-final` identifica `03321af` y se ha publicado en GitHub.
 
 La revisión técnica de este informe está realizada. No se ha utilizado otra identidad, no se han creado comentarios atribuidos a compañeros y no existe una aprobación externa que pueda darse por recibida. El PR identifica la revisión como autorrevisión de Pablo García Martínez y enlaza este informe.
 
@@ -75,7 +75,9 @@ La validación documental final comprobó los enlaces y todos los números de ev
 
 Se comprobó sintaxis de todos los scripts Bash y formato de código/documentación. Los logs y volcados nativos contienen espacios de alineación y líneas finales tal como los emitieron SQLcl/Oracle: se conservan sin reformatear para mantener la evidencia original.
 
-Quedan pendientes la revisión cruzada o aceptación expresa del profesor de esta modalidad, la fusión del PR mediante merge commit, el cierre automático del Issue y la publicación de `lab4-final` sobre el resultado fusionado. No se marca el checklist de «main tras el merge» como cumplido mientras la entrega siga en la rama. La etiqueta final debe representar ese estado y no se anticipa al merge.
+El cierre de entrega comprende la fusión del PR mediante merge commit, el cierre automático del Issue y la publicación de [lab4-final](https://github.com/garmaar/oracle-database-lab/tree/lab4-final) sobre el resultado fusionado. Los enlaces del PR, Issue y etiqueta permiten comprobar el estado final en GitHub.
+
+La entrega incluye la autorrevisión técnica realizada por Pablo García Martínez. La revisión cruzada de otra persona no se ha realizado y no se marca como cumplida. Esta diferencia respecto al enunciado permanece explícita; la aceptación de la modalidad de revisión corresponde al profesor.
 
 ## Entrega en Canvas
 
