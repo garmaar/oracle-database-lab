@@ -1,0 +1,69 @@
+SQL Format Cleared
+SQL Format Cleared
+
+MOMENTO                    MESSAGE_TEXT                                                                                                                                                    
+-------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+2026-10-26 17:02:51 +00:00 *** 2026-10-26T17:02:51.294191+00:00                                                                                                                            
+                           Crash Recovery excluding pdb 2 which was cleanly closed.                                                                                                        
+
+2026-10-26 17:02:51 +00:00 *** 2026-10-26T17:02:51.294418+00:00                                                                                                                            
+                           Crash Recovery excluding pdb 3 which was cleanly closed.                                                                                                        
+
+2026-10-26 17:04:58 +00:00 *** 2026-10-26T17:04:58.856427+00:00                                                                                                                            
+                           Crash Recovery excluding pdb 2 which was cleanly closed.                                                                                                        
+
+2026-10-26 17:04:58 +00:00 *** 2026-10-26T17:04:58.856660+00:00                                                                                                                            
+                           Crash Recovery excluding pdb 3 which was cleanly closed.                                                                                                        
+
+2026-10-26 17:11:35 +00:00 ORA-959 signalled during: DROP TABLESPACE IF EXISTS tbs_lab4 INCLUDING CONTENTS AND DATAFILES...                                                                
+
+
+
+GRANTEE                                                                                                                          PRIVILEGE                               
+-------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------
+C##OPS_RO                                                                                                                        CREATE SESSION                          
+C##OPS_RO                                                                                                                        SET CONTAINER                           
+
+
+NOMBRE                   VALOR                                                                                     
+------------------------ ------------------------------------------------------------------------------------------
+log_archive_dest_1                                                                                                 
+log_archive_dest                                                                                                   
+db_files                 200                                                                                       
+db_create_file_dest                                                                                                
+open_cursors             300                                                                                       
+
+
+NAME                                                                                                                             OPEN_MODE 
+-------------------------------------------------------------------------------------------------------------------------------- ----------
+PDB$SEED                                                                                                                         READ ONLY 
+FREEPDB1                                                                                                                         READ WRITE
+
+
+Session altered.
+
+
+NOMBRE                   VALOR                                                                                     
+------------------------ ------------------------------------------------------------------------------------------
+db_create_file_dest      /opt/oracle/oradata/FREE/FREEPDB1                                                         
+open_cursors             300                                                                                       
+
+
+OWNER                                                                                                                                TABLAS SIN_ESTADISTICAS
+-------------------------------------------------------------------------------------------------------------------------------- ---------- ----------------
+ADMIN_ACADEMIA                                                                                                                            3                0
+ADMIN_CLINICA                                                                                                                             3                3
+ADMIN_FINTECH                                                                                                                             2                2
+ADMIN_LOGISTICA                                                                                                                           3                3
+ADMIN_RETAIL                                                                                                                              3                3
+
+
+TABLAS_NEGOCIO
+--------------
+            14
+
+
+INDICES_INVALIDOS
+-----------------
+                0
+
