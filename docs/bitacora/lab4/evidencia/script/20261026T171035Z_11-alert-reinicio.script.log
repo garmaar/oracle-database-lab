@@ -1,0 +1,186 @@
+SQL Format Cleared
+SQL Format Cleared
+
+GRANTEE
+--------------------------------------------------------------------------------------------------------------------------------
+TABLE_NAME                                                                                                                       PRIVILEGE                                COM
+-------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------- ---
+C##OPS_RO                                                                                                                        
+V_$DIAG_ALERT_EXT                                                                                                                SELECT                                   YES
+
+
+
+    GROUP#    MEMBERS STATUS          
+---------- ---------- ----------------
+         1          1 INACTIVE        
+         2          1 INACTIVE        
+         3          1 CURRENT         
+
+
+NAME
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+STATUS 
+-------
+/opt/oracle/oradata/FREE/control01.ctl                                                                                                                                                                                                          
+       
+
+/opt/oracle/oradata/FREE/control02.ctl                                                                                                                                                                                                          
+       
+
+
+
+MOMENTO                        MESSAGE_TEXT                                                                                                                                          
+------------------------------ ------------------------------------------------------------------------------------------------------------------------------------------------------
+2026-07-05 21:57:46.617 +00:00 Starting ORACLE instance (normal) (OS id: 613)                                                                                                        
+
+2026-07-05 21:57:46.763 +00:00 Errors in file /opt/oracle/diag/rdbms/free/FREE/trace/FREE_ora_613.trc:                                                                               
+                               ORA-27167: Attempt to determine if Oracle binary image is stored on remote server failed                                                              
+                               ORA-27300: OS system dependent operation:parse_df failed with status: 2                                                                               
+                               ORA-27301: OS failure message: No such file or directory                                                                                              
+                               ORA-27302: failure occurred at: parse failed                                                                                                          
+                               ORA-27303: additional information: Filesystem      1K-blocks      Used Available Use% Mounted on                                                      
+                               fuse-overlayfs 1073217536 177137876 896079660  17% /                                                                                                  
+
+2026-07-05 21:57:49.668 +00:00 Errors in file /opt/oracle/diag/rdbms/free/FREE/trace/FREE_vktm_628.trc  (incident=41) (PDBNAME=CDB$ROOT):                                            
+                               ORA-00800: soft external error, arguments: [Set Priority Failed], [VKTM], [Check traces and OS configuration], [Check Oracle document and MOS notes], 
+                               []                                                                                                                                                    
+
+2026-07-05 21:57:51.501 +00:00 Errors in file /opt/oracle/diag/rdbms/free/FREE/trace/FREE_lgwr_668.trc  (incident=161) (PDBNAME=CDB$ROOT):                                           
+                               ORA-00800: soft external error, arguments: [Set Priority Failed], [LGWR], [Check traces and OS configuration], [Check Oracle document and MOS notes], 
+                               []                                                                                                                                                    
+
+2026-07-05 21:59:24.956 +00:00 Shutting down ORACLE instance (immediate) (OS id: 802)                                                                                                
+
+2026-07-05 21:59:27.230 +00:00 Instance shutdown complete (OS id: 802)                                                                                                               
+
+2026-07-05 21:59:27.538 +00:00 Starting ORACLE instance (normal) (OS id: 803)                                                                                                        
+
+2026-07-05 21:59:27.691 +00:00 Errors in file /opt/oracle/diag/rdbms/free/FREE/trace/FREE_ora_803.trc:                                                                               
+                               ORA-27167: Attempt to determine if Oracle binary image is stored on remote server failed                                                              
+                               ORA-27300: OS system dependent operation:parse_df failed with status: 2                                                                               
+                               ORA-27301: OS failure message: No such file or directory                                                                                              
+                               ORA-27302: failure occurred at: parse failed                                                                                                          
+                               ORA-27303: additional information: Filesystem      1K-blocks      Used Available Use% Mounted on                                                      
+                               fuse-overlayfs 1073217536 179709448 893508088  17% /                                                                                                  
+
+2026-07-05 21:59:30.339 +00:00 Errors in file /opt/oracle/diag/rdbms/free/FREE/trace/FREE_vktm_818.trc  (incident=1643) (PDBNAME=CDB$ROOT):                                          
+                               ORA-00800: soft external error, arguments: [Set Priority Failed], [VKTM], [Check traces and OS configuration], [Check Oracle document and MOS notes], 
+                               []                                                                                                                                                    
+
+2026-07-05 21:59:31.875 +00:00 Errors in file /opt/oracle/diag/rdbms/free/FREE/trace/FREE_lgwr_858.trc  (incident=1763) (PDBNAME=CDB$ROOT):                                          
+                               ORA-00800: soft external error, arguments: [Set Priority Failed], [LGWR], [Check traces and OS configuration], [Check Oracle document and MOS notes], 
+                               []                                                                                                                                                    
+
+2026-07-05 21:59:45.826 +00:00 Shutting down ORACLE instance (immediate) (OS id: 994)                                                                                                
+
+2026-07-05 21:59:57.871 +00:00 Instance shutdown complete (OS id: 994)                                                                                                               
+
+2026-07-05 21:59:58.154 +00:00 Starting ORACLE instance (restrict) (OS id: 1194)                                                                                                     
+
+2026-07-05 21:59:58.296 +00:00 Errors in file /opt/oracle/diag/rdbms/free/FREE/trace/FREE_ora_1194.trc:                                                                              
+                               ORA-27167: Attempt to determine if Oracle binary image is stored on remote server failed                                                              
+                               ORA-27300: OS system dependent operation:parse_df failed with status: 2                                                                               
+                               ORA-27301: OS failure message: No such file or directory                                                                                              
+                               ORA-27302: failure occurred at: parse failed                                                                                                          
+                               ORA-27303: additional information: Filesystem      1K-blocks      Used Available Use% Mounted on                                                      
+                               fuse-overlayfs 1073217536 180365844 892851692  17% /                                                                                                  
+
+2026-07-05 21:59:58.991 +00:00 Errors in file /opt/oracle/diag/rdbms/free/FREE/trace/FREE_vktm_1209.trc  (incident=3245) (PDBNAME=CDB$ROOT):                                         
+                               ORA-00800: soft external error, arguments: [Set Priority Failed], [VKTM], [Check traces and OS configuration], [Check Oracle document and MOS notes], 
+                               []                                                                                                                                                    
+
+2026-07-05 22:00:00.556 +00:00 Errors in file /opt/oracle/diag/rdbms/free/FREE/trace/FREE_lgwr_1251.trc  (incident=3365) (PDBNAME=CDB$ROOT):                                         
+                               ORA-00800: soft external error, arguments: [Set Priority Failed], [LGWR], [Check traces and OS configuration], [Check Oracle document and MOS notes], 
+                               []                                                                                                                                                    
+
+2026-07-05 22:00:06.212 +00:00 Completed: ALTER DATABASE OPEN                                                                                                                        
+
+2026-07-05 22:01:25.666 +00:00 Shutting down ORACLE instance (immediate) (OS id: 1791)                                                                                               
+
+2026-07-05 22:01:58.309 +00:00 Instance shutdown complete (OS id: 1791)                                                                                                              
+
+2026-07-05 22:01:58.614 +00:00 Starting ORACLE instance (normal) (OS id: 1898)                                                                                                       
+
+2026-07-05 22:01:58.748 +00:00 Errors in file /opt/oracle/diag/rdbms/free/FREE/trace/FREE_ora_1898.trc:                                                                              
+                               ORA-27167: Attempt to determine if Oracle binary image is stored on remote server failed                                                              
+                               ORA-27300: OS system dependent operation:parse_df failed with status: 2                                                                               
+                               ORA-27301: OS failure message: No such file or directory                                                                                              
+                               ORA-27302: failure occurred at: parse failed                                                                                                          
+                               ORA-27303: additional information: Filesystem      1K-blocks      Used Available Use% Mounted on                                                      
+                               fuse-overlayfs 1073217536 180366872 892850664  17% /                                                                                                  
+
+2026-07-05 22:02:01.396 +00:00 Errors in file /opt/oracle/diag/rdbms/free/FREE/trace/FREE_vktm_1913.trc  (incident=4847) (PDBNAME=CDB$ROOT):                                         
+                               ORA-00800: soft external error, arguments: [Set Priority Failed], [VKTM], [Check traces and OS configuration], [Check Oracle document and MOS notes], 
+                               []                                                                                                                                                    
+
+2026-07-05 22:02:03.062 +00:00 Errors in file /opt/oracle/diag/rdbms/free/FREE/trace/FREE_lgwr_1954.trc  (incident=4967) (PDBNAME=CDB$ROOT):                                         
+                               ORA-00800: soft external error, arguments: [Set Priority Failed], [LGWR], [Check traces and OS configuration], [Check Oracle document and MOS notes], 
+                               []                                                                                                                                                    
+
+2026-07-05 22:02:07.680 +00:00 Completed: ALTER DATABASE OPEN                                                                                                                        
+
+2026-07-05 22:02:34.569 +00:00 Shutting down ORACLE instance (immediate) (OS id: 2349)                                                                                               
+
+2026-07-05 22:02:42.259 +00:00 Instance shutdown complete (OS id: 2349)                                                                                                              
+
+2026-07-05 22:02:42.457 +00:00 Starting ORACLE instance (normal) (OS id: 2351)                                                                                                       
+
+2026-07-05 22:02:42.594 +00:00 Errors in file /opt/oracle/diag/rdbms/free/FREE/trace/FREE_ora_2351.trc:                                                                              
+                               ORA-27167: Attempt to determine if Oracle binary image is stored on remote server failed                                                              
+                               ORA-27300: OS system dependent operation:parse_df failed with status: 2                                                                               
+
+MOMENTO                        MESSAGE_TEXT                                                                                                                                          
+------------------------------ ------------------------------------------------------------------------------------------------------------------------------------------------------
+                               ORA-27301: OS failure message: No such file or directory                                                                                              
+                               ORA-27302: failure occurred at: parse failed                                                                                                          
+                               ORA-27303: additional information: Filesystem      1K-blocks      Used Available Use% Mounted on                                                      
+                               fuse-overlayfs 1073217536 181162244 892055292  17% /                                                                                                  
+
+2026-07-05 22:02:45.271 +00:00 Errors in file /opt/oracle/diag/rdbms/free/FREE/trace/FREE_vktm_2366.trc  (incident=6449) (PDBNAME=CDB$ROOT):                                         
+                               ORA-00800: soft external error, arguments: [Set Priority Failed], [VKTM], [Check traces and OS configuration], [Check Oracle document and MOS notes], 
+                               []                                                                                                                                                    
+
+2026-07-05 22:02:46.760 +00:00 Errors in file /opt/oracle/diag/rdbms/free/FREE/trace/FREE_lgwr_2406.trc  (incident=6569) (PDBNAME=CDB$ROOT):                                         
+                               ORA-00800: soft external error, arguments: [Set Priority Failed], [LGWR], [Check traces and OS configuration], [Check Oracle document and MOS notes], 
+                               []                                                                                                                                                    
+
+2026-07-05 22:02:52.961 +00:00 Completed: ALTER DATABASE OPEN                                                                                                                        
+
+2026-07-05 22:02:54.440 +00:00 Errors in file /opt/oracle/diag/rdbms/free/FREE/trace/FREE_j002_2759.trc:                                                                             
+                               ORA-07427: spstp: cannot change directory to dbs.                                                                                                     
+                               ORA-27300: OS system dependent operation:chdir() failed with status: 2                                                                                
+                               ORA-27301: OS failure message: No such file or directory                                                                                              
+                               ORA-27302: failure occurred at: spstp:9                                                                                                               
+                               ORA-27303: additional information: error returned by chdir() is 2                                                                                     
+
+2026-10-26 17:02:48.206 +00:00 Starting ORACLE instance (normal) (OS id: 39)                                                                                                         
+
+2026-10-26 17:02:50.173 +00:00 Errors in file /opt/oracle/diag/rdbms/free/FREE/trace/FREE_vktm_54.trc  (incident=8051) (PDBNAME=CDB$ROOT):                                           
+                               ORA-00800: soft external error, arguments: [Set Priority Failed], [VKTM], [Check traces and OS configuration], [Check Oracle document and MOS notes], 
+                               []                                                                                                                                                    
+
+2026-10-26 17:02:50.424 +00:00 Errors in file /opt/oracle/diag/rdbms/free/FREE/trace/FREE_lgwr_94.trc  (incident=8171) (PDBNAME=CDB$ROOT):                                           
+                               ORA-00800: soft external error, arguments: [Set Priority Failed], [LGWR], [Check traces and OS configuration], [Check Oracle document and MOS notes], 
+                               []                                                                                                                                                    
+
+2026-10-26 17:02:56.531 +00:00 Completed: ALTER DATABASE OPEN                                                                                                                        
+
+2026-10-26 17:04:49.800 +00:00 Shutting down ORACLE instance (immediate) (OS id: 800)                                                                                                
+
+2026-10-26 17:04:56.922 +00:00 Instance shutdown complete (OS id: 800)                                                                                                               
+
+2026-10-26 17:04:57.053 +00:00 Starting ORACLE instance (normal) (OS id: 802)                                                                                                        
+
+2026-10-26 17:04:57.479 +00:00 Errors in file /opt/oracle/diag/rdbms/free/FREE/trace/FREE_vktm_817.trc  (incident=9653) (PDBNAME=CDB$ROOT):                                          
+                               ORA-00800: soft external error, arguments: [Set Priority Failed], [VKTM], [Check traces and OS configuration], [Check Oracle document and MOS notes], 
+                               []                                                                                                                                                    
+
+2026-10-26 17:04:57.763 +00:00 Errors in file /opt/oracle/diag/rdbms/free/FREE/trace/FREE_lgwr_857.trc  (incident=9773) (PDBNAME=CDB$ROOT):                                          
+                               ORA-00800: soft external error, arguments: [Set Priority Failed], [LGWR], [Check traces and OS configuration], [Check Oracle document and MOS notes], 
+                               []                                                                                                                                                    
+
+2026-10-26 17:05:01.631 +00:00 Completed: ALTER DATABASE OPEN                                                                                                                        
+
+
+42 rows selected. 
+

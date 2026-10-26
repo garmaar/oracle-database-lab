@@ -1,0 +1,6 @@
+SYS: conexión de red con contraseña rotada comprobada, valor omitido.
+admin_academia: contraseña histórica rechazada (ORA-01017).
+admin_clinica: contraseña histórica rechazada (ORA-01017).
+admin_retail: contraseña histórica rechazada (ORA-01017).
+admin_logistica: contraseña histórica rechazada (ORA-01017).
+admin_fintech: contraseña histórica rechazada (ORA-01017).

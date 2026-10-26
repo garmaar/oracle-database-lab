@@ -1,0 +1,36 @@
+
+Session altered.
+
+
+USERNAME															 AUTHENTI ACCOUNT_STATUS
+-------------------------------------------------------------------------------------------------------------------------------- -------- --------------------------------
+ADMIN_ACADEMIA															 NONE	  OPEN
+ADMIN_CLINICA															 NONE	  OPEN
+ADMIN_FINTECH															 NONE	  OPEN
+ADMIN_LOGISTICA 														 NONE	  OPEN
+ADMIN_RETAIL															 NONE	  OPEN
+
+
+ESTUDIANTES ASIGNATURAS MATRICULAS
+----------- ----------- ----------
+      20000	     40      60000
+
+
+ESTADO			  FILAS
+-------------------- ----------
+ACTIVO			  17600
+EGRESADO		   2000
+INACTIVO		    400
+
+
+ HUERFANAS
+----------
+	 0
+
+
+TABLE_NAME															   NUM_ROWS LAST_ANAL
+-------------------------------------------------------------------------------------------------------------------------------- ---------- ---------
+ACA_ASIGNATURAS 															 40 26-OCT-26
+ACA_ESTUDIANTES 														      20000 26-OCT-26
+ACA_MATRICULAS															      60000 26-OCT-26
+

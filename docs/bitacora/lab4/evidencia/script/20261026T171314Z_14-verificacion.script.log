@@ -1,0 +1,33 @@
+
+USUARIOS_PRUEBA
+---------------
+	      0
+
+
+PDB_PRUEBA
+----------
+	 0
+
+
+Session altered.
+
+
+TABLESPACES_PRUEBA
+------------------
+		 0
+
+
+SEGMENTOS_PRUEBA
+----------------
+	       0
+
+
+INDICES_NEGOCIO_NO_VALIDOS
+--------------------------
+			 0
+
+
+ESTUDIANTES ASIGNATURAS MATRICULAS
+----------- ----------- ----------
+      20000	     40      60000
+

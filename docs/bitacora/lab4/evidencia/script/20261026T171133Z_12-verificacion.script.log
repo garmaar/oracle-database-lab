@@ -1,0 +1,17 @@
+
+Session altered.
+
+
+ESTUDIANTE_ID DIRECCION 	     OBJETO	BLOQUE	   RANURA
+------------- ------------------ ---------- ---------- ----------
+	  101 AAAR2mAAAAAAAMLAAF      73126	   779		5
+	19501 AAAR2mAAAAAAASWABO      73126	  1174	       78
+
+
+     FILAS BLOQUES_CON_FILAS
+---------- -----------------
+     20000		 231
+
+20261026T171051Z_12-volcado-bloque.trc.txt nrow=90 {'fsbo': 198, 'fseo': 1063, 'avsp': 865} avsp=fseo-fsbo: OK
+20261026T171053Z_12-volcado-extra-19501.trc.txt nrow=85 {'fsbo': 188, 'fseo': 1014, 'avsp': 826} avsp=fseo-fsbo: OK
+Las dos trazas contienen cabecera, directorio y filas completas.

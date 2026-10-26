@@ -1,0 +1,10 @@
+Archivos prohibidos versionados: 0
+Rutas prohibidas en historial: 0
+ORACLE_PWD: archivos actuales=0; blobs históricos=0
+APP_USER_PWD: archivos actuales=0; blobs históricos=0
+ORDS_PUBLIC_PWD: archivos actuales=0; blobs históricos=0
+OPS_RO_PWD: archivos actuales=0; blobs históricos=0
+Cláusulas con contraseña literal en evidencias Lab 4: 0
+V000__setup_entornos_negocio.sql: idéntica a 03321af
+V001__create_esquemas_negocio.sql: idéntica a 03321af
+RESULTADO: control de secretos, archivos prohibidos y migraciones OK.
