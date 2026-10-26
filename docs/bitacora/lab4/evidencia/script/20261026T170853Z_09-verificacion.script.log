@@ -1,0 +1,3 @@
+LGWR: db_lgwr_FREE 
+6880                db_lgwr_FREE
+  t=0s  docker=healthy  cdb/pdb=READWRITE/READWRITE

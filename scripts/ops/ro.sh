@@ -12,5 +12,5 @@ mkdir -p docs/bitacora/lab4/evidencia/spool
 SQL_FILE="${1:?Uso: ro.sh <archivo.sql> [servicio]}"
 SERVICE="${2:-$SERVICE_CDB}"
 [ -f "$SQL_FILE" ] || { echo "No existe $SQL_FILE" >&2; exit 2; }
-printf 'CONNECT c##ops_ro/"%s"@//localhost:%s/%s\n@%s\nEXIT\n' \
+printf 'SET ECHO OFF VERIFY OFF\nWHENEVER OSERROR EXIT FAILURE\nWHENEVER SQLERROR EXIT FAILURE\nSET SQLFORMAT DEFAULT\nCONNECT c##ops_ro/"%s"@//localhost:%s/%s\n@%s\nEXIT\n' \
   "$OPS_RO_PWD" "$PORT_DB" "$SERVICE" "$SQL_FILE" | sql -S /nolog
