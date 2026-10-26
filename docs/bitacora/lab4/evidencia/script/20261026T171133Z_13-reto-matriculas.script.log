@@ -1,0 +1,16 @@
+
+Session altered.
+
+Predicción previa a DBA_TABLES: filas=60000 R estimado=34.31 bfr=212 b=284
+
+PL/SQL procedure successfully completed.
+
+
+TABLE_NAME															   NUM_ROWS AVG_ROW_LEN   PCT_FREE     BLOCKS BLOQUES_U3
+-------------------------------------------------------------------------------------------------------------------------------- ---------- ----------- ---------- ---------- ----------
+RECORRIDO_HDD_MS
+----------------
+ACA_MATRICULAS															      60000	     30 	10	  370	     248
+	  19.271
+
+
