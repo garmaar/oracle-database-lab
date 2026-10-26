@@ -1,0 +1,37 @@
+
+Session altered.
+
+
+System altered.
+
+
+NAME
+--------------------------------------------------------------------------------
+VALUE
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+db_create_file_dest
+/opt/oracle/oradata/FREE/FREEPDB1
+
+
+1 row selected.
+
+
+Tablespace created.
+
+
+TABLESPACE_NAME 	       FILE_NAME
+------------------------------ ----------------------------------------------------------------------------------------------------------------------------------
+LAB4_OMF_PROBE		       /opt/oracle/oradata/FREE/FREEPDB1/FREE/55E54F210F100828E0630B00580ADFD0/datafile/o1_mf_lab4_omf_ofz24hpc_.dbf
+
+1 row selected.
+
+
+Tablespace dropped.
+
+
+RESTOS_OMF_PROBE
+----------------
+	       0
+
+1 row selected.
+
