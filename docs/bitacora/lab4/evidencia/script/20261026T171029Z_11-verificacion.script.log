@@ -1,0 +1,10 @@
+spfile /opt/oracle/oradata/dbconfig/FREE/dbs/spfileFREE.ora 3584 bytes
+pwfile /opt/oracle/oradata/dbconfig/FREE/dbs/orapwFREE 2048 bytes
+control: 37584896 bytes; 35.8438 MiB
+datafile: 4235329536 bytes; 4039.125 MiB
+pwfile: 2048 bytes; 0.002 MiB
+redo: 629147136 bytes; 600.0015 MiB
+spfile: 3584 bytes; 0.0034 MiB
+tempfile: 62939136 bytes; 60.0234 MiB
+Copia fría de los archivos inventariados sin TEMP: 4902067200 bytes; 4674.9756 MiB
+Cobertura: todas las rutas reales del inventario están dentro del volumen.
