@@ -1,0 +1,109 @@
+Inicio UTC: 2026-10-26T16:30:53+00:00
+== 1. Comprobaciones previas ==
+Unable to find image 'ubuntu:24.04' locally
+24.04: Pulling from library/ubuntu
+f2b4ef06ff01: Pulling fs layer
+5486761bbbdb: Download complete
+f2b4ef06ff01: Download complete
+f2b4ef06ff01: Pull complete
+Digest: sha256:68ee22004a9109b44973313b02ff7b1de250f1de0f5ecb628d73f579aaff33ac
+Status: Downloaded newer image for ubuntu:24.04
+Volumen: 5287 MB · libre en backups/: 941473 MB
+== 2. Inventario de archivos (base abierta) ==
+META|version|23.26.3.0.0
+META|base|FREE|log_mode=ARCHIVELOG|scn=6284248
+FILE|datafile|/opt/oracle/oradata/FREE/system01.dbf
+FILE|datafile|/opt/oracle/oradata/FREE/pdbseed/system01.dbf
+FILE|datafile|/opt/oracle/oradata/FREE/sysaux01.dbf
+FILE|datafile|/opt/oracle/oradata/FREE/pdbseed/sysaux01.dbf
+FILE|datafile|/opt/oracle/oradata/FREE/users01.dbf
+FILE|datafile|/opt/oracle/oradata/FREE/pdbseed/undotbs01.dbf
+FILE|datafile|/opt/oracle/oradata/FREE/undotbs01.dbf
+FILE|datafile|/opt/oracle/oradata/FREE/FREEPDB1/system01.dbf
+FILE|datafile|/opt/oracle/oradata/FREE/FREEPDB1/sysaux01.dbf
+FILE|datafile|/opt/oracle/oradata/FREE/FREEPDB1/undotbs01.dbf
+FILE|datafile|/opt/oracle/oradata/FREE/FREEPDB1/users01.dbf
+FILE|datafile|/opt/oracle/product/26ai/dbhomeFree/dbs/academia01.dbf
+FILE|datafile|/opt/oracle/product/26ai/dbhomeFree/dbs/clinica01.dbf
+FILE|datafile|/opt/oracle/product/26ai/dbhomeFree/dbs/retail01.dbf
+FILE|datafile|/opt/oracle/product/26ai/dbhomeFree/dbs/logistica01.dbf
+FILE|datafile|/opt/oracle/product/26ai/dbhomeFree/dbs/fintech01.dbf
+FILE|tempfile|/opt/oracle/oradata/FREE/temp01.dbf
+FILE|tempfile|/opt/oracle/oradata/FREE/pdbseed/temp01.dbf
+FILE|tempfile|/opt/oracle/oradata/FREE/FREEPDB1/temp01.dbf
+FILE|redo|/opt/oracle/oradata/FREE/redo03.log
+FILE|redo|/opt/oracle/oradata/FREE/redo02.log
+FILE|redo|/opt/oracle/oradata/FREE/redo01.log
+FILE|control|/opt/oracle/oradata/FREE/control01.ctl
+FILE|control|/opt/oracle/oradata/FREE/control02.ctl
+FILE|spfile|/opt/oracle/product/26ai/dbhomeFree/dbs/spfileFREE.ora
+FILE|pwfile|/opt/oracle/product/26ai/dbhomeFree/dbs/orapwFREE
+== 3. Cobertura: ¿está todo dentro de /opt/oracle/oradata (el volumen)? ==
+  dentro  /opt/oracle/oradata/FREE/FREEPDB1/sysaux01.dbf
+  dentro  /opt/oracle/oradata/FREE/FREEPDB1/system01.dbf
+  dentro  /opt/oracle/oradata/FREE/FREEPDB1/temp01.dbf
+  dentro  /opt/oracle/oradata/FREE/FREEPDB1/undotbs01.dbf
+  dentro  /opt/oracle/oradata/FREE/FREEPDB1/users01.dbf
+  dentro  /opt/oracle/oradata/FREE/control01.ctl
+  dentro  /opt/oracle/oradata/FREE/control02.ctl
+  dentro  /opt/oracle/oradata/FREE/pdbseed/sysaux01.dbf
+  dentro  /opt/oracle/oradata/FREE/pdbseed/system01.dbf
+  dentro  /opt/oracle/oradata/FREE/pdbseed/temp01.dbf
+  dentro  /opt/oracle/oradata/FREE/pdbseed/undotbs01.dbf
+  dentro  /opt/oracle/oradata/FREE/redo01.log
+  dentro  /opt/oracle/oradata/FREE/redo02.log
+  dentro  /opt/oracle/oradata/FREE/redo03.log
+  dentro  /opt/oracle/oradata/FREE/sysaux01.dbf
+  dentro  /opt/oracle/oradata/FREE/system01.dbf
+  dentro  /opt/oracle/oradata/FREE/temp01.dbf
+  dentro  /opt/oracle/oradata/FREE/undotbs01.dbf
+  dentro  /opt/oracle/oradata/FREE/users01.dbf
+  dentro  /opt/oracle/product/26ai/dbhomeFree/dbs/academia01.dbf
+  dentro  /opt/oracle/product/26ai/dbhomeFree/dbs/clinica01.dbf
+  dentro  /opt/oracle/product/26ai/dbhomeFree/dbs/fintech01.dbf
+  dentro  /opt/oracle/product/26ai/dbhomeFree/dbs/logistica01.dbf
+  dentro  /opt/oracle/product/26ai/dbhomeFree/dbs/orapwFREE
+  dentro  /opt/oracle/product/26ai/dbhomeFree/dbs/retail01.dbf
+  dentro  /opt/oracle/product/26ai/dbhomeFree/dbs/spfileFREE.ora
+== 4. Parada limpia: SHUTDOWN IMMEDIATE y docker stop ==
+Database closed.
+Database dismounted.
+ORACLE instance shut down.
+== 5. Copia del volumen (tar + gzip, conservando dueños y permisos) ==
+== 6. Archivos fuera del volumen ==
+  ninguno: el volumen contiene toda la base de datos
+== 7. Manifiesto y sumas SHA-256 ==
+== 8. Arranque y espera a healthy ==
+  t=0s  docker=starting  cdb/pdb=no-disponible
+  t=10s  docker=healthy  cdb/pdb=READWRITE/READWRITE
+== Copia terminada ==
+630M	/home/garmar/UCAM_projects/ADMON_BBDD/oracle-database-lab/backups/20261026T163058Z_lab3-final
+Para restaurarla: bash scripts/ops/restaurar-estado.sh /home/garmar/UCAM_projects/ADMON_BBDD/oracle-database-lab/backups/20261026T163058Z_lab3-final
+
+Duración del procedimiento de copia: 182 segundos
+
+--- VERIFICACIÓN SHA-256 ---
+./extras.lst: OK
+./inventario.txt: OK
+./manifiesto.txt: OK
+./volumen.tar.gz: OK
+
+--- COMPROBACIÓN DEL ARCHIVO COMPRIMIDO ---
+Archivo comprimido legible: OK
+
+--- MANIFIESTO ---
+etiqueta=lab3-final
+fecha_utc=20261026T163339Z
+contenedor=oralab-26ai
+volumen=oralab-26ai-data
+imagen=container-registry.oracle.com/database/free:latest
+git_commit=03321af
+tipo=copia en frio consistente (SHUTDOWN IMMEDIATE)
+archivos_fuera_del_volumen=0
+
+--- TAMAÑO ---
+630M	backups/20261026T163058Z_lab3-final
+
+--- ESTADO DE ORACLE ---
+CONTAINER ID   IMAGE                                                COMMAND                  CREATED       STATUS                    PORTS                                                                                      NAMES
+26dddb590dba   container-registry.oracle.com/database/free:latest   "/bin/bash -c $SCRIP…"   4 weeks ago   Up 47 seconds (healthy)   0.0.0.0:1521->1521/tcp, [::]:1521->1521/tcp, 0.0.0.0:8181->8181/tcp, [::]:8181->8181/tcp   oralab-26ai
