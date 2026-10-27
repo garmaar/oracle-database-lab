@@ -1,0 +1,36 @@
+
+NAME										 STATUS
+-------------------------------------------------------------------------------- -------
+/opt/oracle/oradata/FREE/control01.ctl
+/opt/oracle/oradata/FREE/control02.ctl
+/opt/oracle/oradata/FREE/control03.ctl
+
+
+NAME
+--------------------------------------------------------------------------------
+VALUE
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+control_files
+/opt/oracle/oradata/FREE/control01.ctl
+
+control_files
+/opt/oracle/oradata/FREE/control02.ctl
+
+control_files
+/opt/oracle/oradata/FREE/control03.ctl
+
+
+
+PL/SQL procedure successfully completed.
+
+
+NAME										 OPEN_MODE
+-------------------------------------------------------------------------------- --------------------
+FREE										 READ WRITE
+
+
+NAME										 OPEN_MODE
+-------------------------------------------------------------------------------- ----------
+PDB$SEED									 READ ONLY
+FREEPDB1									 READ WRITE
+
