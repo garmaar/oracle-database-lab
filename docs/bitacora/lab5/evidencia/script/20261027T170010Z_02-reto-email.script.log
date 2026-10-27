@@ -1,0 +1,18 @@
+
+Session altered.
+
+
+Index analyzed.
+
+Predicción UX_CLI_EMAIL: fo máximo=543, capacidad hoja=266, hojas estimadas=418, altura=2
+
+PL/SQL procedure successfully completed.
+
+
+Index analyzed.
+
+
+NAME																     HEIGHT    LF_ROWS	  LF_BLKS    BR_BLKS   PCT_USED
+-------------------------------------------------------------------------------------------------------------------------------- ---------- ---------- ---------- ---------- ----------
+UX_CLI_EMAIL																  3	100000	      501	   3	     90
+

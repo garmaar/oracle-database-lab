@@ -1,0 +1,45 @@
+
+Session altered.
+
+
+  CLIENTES    PEDIDOS
+---------- ----------
+    100000    1000000
+
+
+TABLE_NAME		  INDEX_NAME			 STATUS   VISIBILIT
+------------------------- ------------------------------ -------- ---------
+CLIENTE 		  IX_CLI_PAIS_CIUDAD		 VALID	  VISIBLE
+CLIENTE 		  PK_CLIENTE			 VALID	  VISIBLE
+CLIENTE 		  UX_CLI_EMAIL			 VALID	  VISIBLE
+PEDIDO			  IX_PED_CLIENTE		 VALID	  VISIBLE
+PEDIDO			  IX_PED_FECHA			 VALID	  VISIBLE
+PEDIDO			  IX_PED_IMPORTE		 VALID	  VISIBLE
+PEDIDO			  PK_PEDIDO			 VALID	  VISIBLE
+
+7 rows selected.
+
+
+TABLE_NAME
+-------------------------
+CLIENTE
+PEDIDO
+
+
+ERRORES_PAQUETE
+---------------
+	      0
+
+
+COLUMN_NAME
+--------------------------------------------------------------------------------------------------------------------------------
+ID_PEDIDO
+ID_CLIENTE
+FECHA_PEDIDO
+ESTADO
+IMPORTE
+CANAL
+CODIGO_POSTAL
+
+7 rows selected.
+
