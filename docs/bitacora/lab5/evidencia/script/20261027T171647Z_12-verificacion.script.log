@@ -1,0 +1,34 @@
+
+Session altered.
+
+
+ESTUDIANTE_ID ESTADO
+------------- --------------------
+	  101 ACTIVO
+	  102 ACTIVO
+	  103 ACTIVO
+	  104 ACTIVO
+
+
+   PEDIDOS
+----------
+   1000000
+
+
+  CLIENTES
+----------
+    100000
+
+
+MATRICULAS
+----------
+     60000
+
+
+SNAPSHOT_TOO_OLD FALTA_UNDO
+---------------- ----------
+	       0	  0
+
+
+PL/SQL procedure successfully completed.
+
