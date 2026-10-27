@@ -4,6 +4,8 @@
 # Uso: bash scripts/ops/backup-estado.sh <etiqueta-en-kebab-case>     (p. ej.: lab3-final)
 set -euo pipefail
 source scripts/deployment/env/00-config.sh
+NIVEL_GZIP="${BACKUP_GZIP_LEVEL:-6}"
+[[ "$NIVEL_GZIP" =~ ^[1-9]$ ]] || { echo "BACKUP_GZIP_LEVEL debe estar entre 1 y 9" >&2; exit 2; }
 docker info > /dev/null 2>&1 || { echo "ERROR: Docker no responde (¿está arrancado Docker Desktop o el servicio docker?). No se ha tocado nada." >&2; exit 1; }
 
 ETIQUETA="${1:?Uso: backup-estado.sh <etiqueta, p. ej. lab3-final>}"
@@ -45,16 +47,16 @@ echo "== 4. Parada limpia: SHUTDOWN IMMEDIATE y docker stop =="
 echo "SHUTDOWN IMMEDIATE" | docker exec -i "$CONT_NAME" sqlplus -s -L / as sysdba
 docker stop -t 120 "$CONT_NAME" > /dev/null
 
-echo "== 5. Copia del volumen (tar + gzip, conservando dueños y permisos) =="
+echo "== 5. Copia del volumen (tar + gzip nivel $NIVEL_GZIP, conservando dueños y permisos) =="
 docker run --rm -v "$VOL_NAME":/origen:ro -v "$DEST":/destino "$HELPER_IMG" \
-  sh -c "tar --numeric-owner -czpf /destino/volumen.tar.gz -C /origen . && chown $DUENO /destino/volumen.tar.gz"
+  sh -c "tar --numeric-owner -I 'gzip -$NIVEL_GZIP' -cpf /destino/volumen.tar.gz -C /origen . && chown $DUENO /destino/volumen.tar.gz"
 
 echo "== 6. Archivos fuera del volumen =="
 n=0
 while read -r f; do
   [ -n "$f" ] || continue
   n=$((n + 1))
-  docker cp "$CONT_NAME:$f" - | gzip > "$DEST/extras/extra_$n.tar.gz"
+  docker cp "$CONT_NAME:$f" - | gzip "-$NIVEL_GZIP" > "$DEST/extras/extra_$n.tar.gz"
   echo "extra_$n.tar.gz|$f" >> "$DEST/extras/mapa.txt"
   echo "  copiado $f"
 done < "$DEST/extras.lst"
@@ -69,6 +71,7 @@ echo "== 7. Manifiesto y sumas SHA-256 =="
   echo "imagen=$(docker inspect -f '{{.Config.Image}}' "$CONT_NAME")"
   echo "git_commit=$(git rev-parse --short HEAD 2> /dev/null || echo n/a)"
   echo "tipo=copia en frio consistente (SHUTDOWN IMMEDIATE)"
+  echo "compresion=gzip-$NIVEL_GZIP"
   echo "archivos_fuera_del_volumen=$n"
 } > "$DEST/manifiesto.txt"
 (cd "$DEST" && find . -type f ! -name SHA256SUMS -print0 | sort -z | xargs -0 sha256sum > SHA256SUMS)
