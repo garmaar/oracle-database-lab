@@ -27,3 +27,4 @@ export HELPER_IMG="ubuntu:24.04"
 export DATA_ROOT="/opt/oracle/oradata"
 
 export EVID_LAB4="docs/bitacora/lab4/evidencia"
+export EVID_LAB5="docs/bitacora/lab5/evidencia"
