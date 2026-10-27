@@ -1,0 +1,13 @@
+k_pct,filas_estimadas,cf_bueno,cf_malo,full_scan,plan_cf_malo
+0.01,100,4,111,5232,índice
+0.05,500,7,478,5232,índice
+0.1,1000,11,975,5232,índice
+0.2,2000,19,2004,5232,recorrido completo
+0.5,5000,42,4875,5232,recorrido completo
+1.0,10000,80,9920,5232,recorrido completo
+2.0,20000,159,19957,5232,recorrido completo
+5.0,50000,395,50041,5232,recorrido completo
+10.0,100000,789,100167,5232,recorrido completo
+20.0,200000,1576,200253,5232,recorrido completo
+50.0,500000,3938,500374,5232,recorrido completo
+100.0,1000000,7875,1001259,5232,recorrido completo

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="620" viewBox="0 0 1050 620">
+<rect width="1050" height="620" fill="white"/>
+<g font-family="sans-serif" font-size="13" fill="#172033">
+<text x="90" y="32" font-size="21">TiendaSur: punto de equilibrio medido</text>
+<text x="90" y="57">Ejes logarítmicos; muestras reales, no predicciones de coste</text>
+<rect x="310.00" y="85" width="66.23" height="405" fill="#fef3c7"/>
+<rect x="463.77" y="85" width="66.23" height="405" fill="#fee2e2"/>
+<rect x="903.77" y="85" width="66.23" height="405" fill="#dbeafe"/>
+<path d="M90 427.00 H970" stroke="#e2e8f0"/><text x="80" y="431.00" text-anchor="end">10</text>
+<path d="M90 364.00 H970" stroke="#e2e8f0"/><text x="80" y="368.00" text-anchor="end">100</text>
+<path d="M90 301.00 H970" stroke="#e2e8f0"/><text x="80" y="305.00" text-anchor="end">1,000</text>
+<path d="M90 238.00 H970" stroke="#e2e8f0"/><text x="80" y="242.00" text-anchor="end">10,000</text>
+<path d="M90 175.00 H970" stroke="#e2e8f0"/><text x="80" y="179.00" text-anchor="end">100,000</text>
+<path d="M90 112.00 H970" stroke="#e2e8f0"/><text x="80" y="116.00" text-anchor="end">1,000,000</text>
+<path d="M90.00 85 V490" stroke="#e2e8f0"/><text x="90.00" y="514" text-anchor="middle">0.01%</text>
+<path d="M310.00 85 V490" stroke="#e2e8f0"/><text x="310.00" y="514" text-anchor="middle">0.1%</text>
+<path d="M530.00 85 V490" stroke="#e2e8f0"/><text x="530.00" y="514" text-anchor="middle">1%</text>
+<path d="M750.00 85 V490" stroke="#e2e8f0"/><text x="750.00" y="514" text-anchor="middle">10%</text>
+<path d="M970.00 85 V490" stroke="#e2e8f0"/><text x="970.00" y="514" text-anchor="middle">100%</text>
+<polyline fill="none" stroke="#2563eb" stroke-width="3" points="90.00,452.07 243.77,436.76 310.00,424.39 376.23,409.44 463.77,387.74 530.00,370.11 596.23,351.31 683.77,326.41 750.00,307.48 816.23,288.55 903.77,263.50 970.00,244.54"/>
+<circle cx="90.00" cy="452.07" r="3" fill="#2563eb"/>
+<circle cx="243.77" cy="436.76" r="3" fill="#2563eb"/>
+<circle cx="310.00" cy="424.39" r="3" fill="#2563eb"/>
+<circle cx="376.23" cy="409.44" r="3" fill="#2563eb"/>
+<circle cx="463.77" cy="387.74" r="3" fill="#2563eb"/>
+<circle cx="530.00" cy="370.11" r="3" fill="#2563eb"/>
+<circle cx="596.23" cy="351.31" r="3" fill="#2563eb"/>
+<circle cx="683.77" cy="326.41" r="3" fill="#2563eb"/>
+<circle cx="750.00" cy="307.48" r="3" fill="#2563eb"/>
+<circle cx="816.23" cy="288.55" r="3" fill="#2563eb"/>
+<circle cx="903.77" cy="263.50" r="3" fill="#2563eb"/>
+<circle cx="970.00" cy="244.54" r="3" fill="#2563eb"/>
+<text x="90" y="552" fill="#2563eb">Índice CF bueno</text>
+<polyline fill="none" stroke="#dc2626" stroke-width="3" points="90.00,361.14 243.77,321.20 310.00,301.69 376.23,281.98 463.77,257.66 530.00,238.22 596.23,219.09 683.77,193.94 750.00,174.95 816.23,156.00 903.77,130.94 970.00,111.97"/>
+<circle cx="90.00" cy="361.14" r="3" fill="#dc2626"/>
+<circle cx="243.77" cy="321.20" r="3" fill="#dc2626"/>
+<circle cx="310.00" cy="301.69" r="3" fill="#dc2626"/>
+<circle cx="376.23" cy="281.98" r="3" fill="#dc2626"/>
+<circle cx="463.77" cy="257.66" r="3" fill="#dc2626"/>
+<circle cx="530.00" cy="238.22" r="3" fill="#dc2626"/>
+<circle cx="596.23" cy="219.09" r="3" fill="#dc2626"/>
+<circle cx="683.77" cy="193.94" r="3" fill="#dc2626"/>
+<circle cx="750.00" cy="174.95" r="3" fill="#dc2626"/>
+<circle cx="816.23" cy="156.00" r="3" fill="#dc2626"/>
+<circle cx="903.77" cy="130.94" r="3" fill="#dc2626"/>
+<circle cx="970.00" cy="111.97" r="3" fill="#dc2626"/>
+<text x="370" y="552" fill="#dc2626">Índice CF malo</text>
+<polyline fill="none" stroke="#475569" stroke-width="3" points="90.00,255.72 243.77,255.72 310.00,255.72 376.23,255.72 463.77,255.72 530.00,255.72 596.23,255.72 683.77,255.72 750.00,255.72 816.23,255.72 903.77,255.72 970.00,255.72"/>
+<circle cx="90.00" cy="255.72" r="3" fill="#475569"/>
+<circle cx="243.77" cy="255.72" r="3" fill="#475569"/>
+<circle cx="310.00" cy="255.72" r="3" fill="#475569"/>
+<circle cx="376.23" cy="255.72" r="3" fill="#475569"/>
+<circle cx="463.77" cy="255.72" r="3" fill="#475569"/>
+<circle cx="530.00" cy="255.72" r="3" fill="#475569"/>
+<circle cx="596.23" cy="255.72" r="3" fill="#475569"/>
+<circle cx="683.77" cy="255.72" r="3" fill="#475569"/>
+<circle cx="750.00" cy="255.72" r="3" fill="#475569"/>
+<circle cx="816.23" cy="255.72" r="3" fill="#475569"/>
+<circle cx="903.77" cy="255.72" r="3" fill="#475569"/>
+<circle cx="970.00" cy="255.72" r="3" fill="#475569"/>
+<text x="650" y="552" fill="#475569">Recorrido completo</text>
+<text x="90" y="578">Amarillo: cambio del optimizador (0,1–0,2%); rojo: cruce CF malo (0,5–1%).</text>
+<text x="90" y="601">Azul: cruce CF bueno (50–100%). El eje vertical representa lecturas lógicas.</text>
+</g></svg>
