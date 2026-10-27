@@ -1,0 +1,38 @@
+
+Session altered.
+
+
+  CLIENTES    PEDIDOS
+---------- ----------
+    100000    1000000
+
+
+USERNAME	AUTHENTI
+--------------- --------
+LAB_TOOLS	NONE
+TIENDASUR	NONE
+
+
+OBJECT_NAME		  OBJECT_TYPE		  STATUS
+------------------------- ----------------------- -------
+MEDIR			  PACKAGE		  VALID
+MEDIR			  PACKAGE BODY		  VALID
+
+
+ HUERFANOS
+----------
+	 0
+
+
+BLOQUES_CON_FILAS     MINIMO	  MEDIA     MAXIMO
+----------------- ---------- ---------- ----------
+	     5220	   2	 191.57        200
+
+
+  NUM_ROWS     BLOCKS FILAS_POR_BLOQUE_HWM
+---------- ---------- --------------------
+   1000000	 5320		    187.97
+
+
+PL/SQL procedure successfully completed.
+

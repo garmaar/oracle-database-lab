@@ -1,0 +1,44 @@
+
+Session altered.
+
+
+APELLIDOS_CON_REEMPLAZO_ANTES
+-----------------------------
+			65616
+
+1 row selected.
+
+
+65616 rows updated.
+
+
+Commit complete.
+
+
+PL/SQL procedure successfully completed.
+
+
+APELLIDOS_CON_REEMPLAZO_DESPUES
+-------------------------------
+			      0
+
+1 row selected.
+
+
+ID_CLIENTE APELLIDOS
+---------- --------------------------------------------------------------------------------
+BYTES
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+         1 Pérez Castro
+Typ=1 Len=13 CharacterSet=AL32UTF8: 50,c3,a9,72,65,7a,20,43,61,73,74,72,6f
+
+
+1 row selected.
+
+
+  CLIENTES
+----------
+    100000
+
+1 row selected.
+
