@@ -1,2 +1,7 @@
 config/.env
 backups/
+*.arc
+*.bkp
+*.ctl
+*.dbf
+*.trc

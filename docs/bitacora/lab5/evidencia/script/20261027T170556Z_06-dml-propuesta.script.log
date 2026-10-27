@@ -1,0 +1,12 @@
+
+===== Escenario: propuesta_enunciado =====
+
+INDICES_EN_PEDIDO INDICES
+----------------- --------------------------------------------------------------------------------------------------------------
+                9 IX_PED_CANAL, IX_PED_CLIENTE, IX_PED_CLI_FEC, IX_PED_CP, IX_PED_ESTADO, IX_PED_FECHA, IX_PED_FEC_CLI,
+                  IX_PED_IMPORTE, PK_PEDIDO
+
+propuesta_enunciado: 2000 INSE filas=  2000  lecturas lógicas=  60633  bloques modificados= 40372  redo=  5051 KB   131.2 ms  | por fila: 20.2 bloques, 2586 bytes de redo
+propuesta_enunciado: 2000 UPDA filas=  2000  lecturas lógicas=  20153  bloques modificados= 12075  redo=  1417 KB    43.8 ms  | por fila: 6 bloques, 726 bytes de redo
+propuesta_enunciado: 2000 UPDA filas=  2000  lecturas lógicas=  20153  bloques modificados= 12074  redo=  1472 KB    51.7 ms  | por fila: 6 bloques, 754 bytes de redo
+propuesta_enunciado: 2000 DELE filas=  2000  lecturas lógicas=  62598  bloques modificados= 40302  redo=  4734 KB   119.9 ms  | por fila: 20.2 bloques, 2424 bytes de redo

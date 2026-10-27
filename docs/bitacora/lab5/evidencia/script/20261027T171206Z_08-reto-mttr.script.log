@@ -1,0 +1,22 @@
+
+MOMEN ESTIMATED_MTTR ACTUAL_REDO_BLKS
+----- -------------- ----------------
+ANTES		  19	       487029
+
+
+Session altered.
+
+
+20000 rows updated.
+
+
+Commit complete.
+
+
+Session altered.
+
+
+MOMENTO 	       ESTIMATED_MTTR ACTUAL_REDO_BLKS
+---------------------- -------------- ----------------
+DESPUES SIN CHECKPOINT		   19		490692
+

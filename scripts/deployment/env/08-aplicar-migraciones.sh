@@ -11,7 +11,7 @@ for MIG in "$@"; do
  [ -f "$FILE" ] || { echo "ERROR: no existe $FILE"; exit 2; }
  echo ">> Aplicando $MIG"
  LOG="$DEST/$(ts)_${MIG_PARTE:-04}-$MIG.spool.log"
- if ! docker exec -i "$CONT_NAME" sqlplus -s -L / as sysdba \
+ if ! docker exec -i -e NLS_LANG=.AL32UTF8 "$CONT_NAME" sqlplus -s -L / as sysdba \
  < "$FILE" | tee "$LOG"; then
  echo "ERROR en $MIG: revisa $LOG antes de continuar"
  exit 1

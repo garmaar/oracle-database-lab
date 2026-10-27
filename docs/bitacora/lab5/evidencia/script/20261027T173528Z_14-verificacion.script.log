@@ -1,0 +1,68 @@
+
+NAME											   OPEN_MODE		LOG_MODE
+------------------------------------------------------------------------------------------ -------------------- ------------
+FREE											   READ WRITE		ARCHIVELOG
+
+
+NAME											   OPEN_MODE
+------------------------------------------------------------------------------------------ ----------
+PDB$SEED										   READ ONLY
+FREEPDB1										   READ WRITE
+
+
+no rows selected
+
+
+     FILE# NAME 										      ERROR								REC
+---------- ------------------------------------------------------------------------------------------ ----------------------------------------------------------------- ---
+	24 /opt/oracle/oradata/FREE/FREEPDB1/academia01.dbf														NO
+
+
+STATUS			INPUT_TYPE    OUTPUT_BYTES ELAPSED_SECONDS
+----------------------- ------------- ------------ ---------------
+COMPLETED		DATAFILE FULL	  39878656		27
+
+
+CONTROLFILES
+------------
+	   3
+
+
+    GROUP#    MEMBERS STATUS
+---------- ---------- ----------------
+	 1	    2 INACTIVE
+	 2	    2 INACTIVE
+	 3	    2 CURRENT
+
+
+NAME											   SPACE_LIMIT SPACE_USED
+------------------------------------------------------------------------------------------ ----------- ----------
+/opt/oracle/oradata/fra 								    4294967296	101693952
+
+
+Session altered.
+
+
+ESTUDIANTE_ID ESTADO
+------------- --------------------
+	  101 ACTIVO
+	  102 ACTIVO
+	  103 ACTIVO
+	  104 ACTIVO
+
+
+MATRICULAS   CLIENTES	 PEDIDOS
+---------- ---------- ----------
+     60000     100000	 1000000
+
+
+APELLIDOS_DANADOS
+-----------------
+		0
+
+
+no rows selected
+
+
+PL/SQL procedure successfully completed.
+

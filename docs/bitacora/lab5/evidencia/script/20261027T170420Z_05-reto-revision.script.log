@@ -1,0 +1,31 @@
+
+Session altered.
+
+reto original                  filas=    981  lecturas lógicas=   1487  físicas=    0     32.5 ms
+plan: TABLE ACCESS FULL CLIENTE
+
+PL/SQL procedure successfully completed.
+
+
+Index created.
+
+
+Index created.
+
+reto rango y UNION             filas=    981  lecturas lógicas=   1489  físicas=    0      7.7 ms
+plan: HASH UNIQUE > UNION-ALL > TABLE ACCESS FULL CLIENTE > TABLE ACCESS BY INDEX ROWID BATCHED CLIENTE > INDEX RANGE SCAN IX_L5_APELLIDOS_UPPER
+
+PL/SQL procedure successfully completed.
+
+
+COMPROBACION		 DIFERENCIAS
+------------------------ -----------
+original menos propuesta	   0
+propuesta menos original	   0
+
+
+Index dropped.
+
+
+Index dropped.
+

@@ -1,0 +1,41 @@
+
+NAME	  OPEN_MODE	       LOG_MODE     CURRENT_SCN
+--------- -------------------- ------------ -----------
+FREE	  READ WRITE	       ARCHIVELOG	6402694
+
+
+NAME																 OPEN_MODE
+-------------------------------------------------------------------------------------------------------------------------------- ----------
+PDB$SEED															 READ ONLY
+FREEPDB1															 READ WRITE
+
+
+CABECERAS_CON_ERROR
+-------------------
+		  0
+
+
+Session altered.
+
+
+ESTADO		     ESTUDIANTES
+-------------------- -----------
+ACTIVO			   17600
+EGRESADO		    2000
+INACTIVO		     400
+
+
+USUARIOS_PRUEBA
+---------------
+	      0
+
+
+SEGMENTOS_PRUEBA
+----------------
+	       0
+
+
+INDICES_INVALIDOS
+-----------------
+		0
+

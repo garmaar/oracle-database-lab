@@ -1,0 +1,27 @@
+
+Session altered.
+
+Q11 sin candidato              filas=      1  lecturas lógicas=   5008  físicas=    0     71.6 ms
+plan: SORT AGGREGATE > INDEX FAST FULL SCAN IX_PED_CLI_FEC_CUB
+
+PL/SQL procedure successfully completed.
+
+
+Index created.
+
+Q11 con candidato              filas=      1  lecturas lógicas=   3340  físicas=    0     56.1 ms
+plan: SORT AGGREGATE > INDEX FAST FULL SCAN IX_PED_FEC_IMPORTE_L5
+
+PL/SQL procedure successfully completed.
+
+
+INDEX_NAME															 LEAF_BLOCKS CLUSTERING_FACTOR
+-------------------------------------------------------------------------------------------------------------------------------- ----------- -----------------
+IX_PED_FECHA																2653		  5220
+IX_PED_FEC_IMPORTE_L5															3321		  5220
+
+
+MIB_CANDIDATO
+-------------
+	   27
+
