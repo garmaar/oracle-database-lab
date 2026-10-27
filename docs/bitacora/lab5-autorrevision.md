@@ -58,8 +58,10 @@ Para la copia final se permite elegir el nivel de gzip mediante BACKUP_GZIP_LEVE
 
 ## Entrega y flujo de GitHub
 
-Issue: [#6](https://github.com/garmaar/oracle-database-lab/issues/6). Rama principal del trabajo: `chore/5-oracle-dba-workflow-ii`. Hay un commit por Parte A–Q y una corrección UTF-8 separada. La [rama de V006](https://github.com/garmaar/oracle-database-lab/tree/experiment/lab5-v006-fecha-importe) conserva el candidato rechazado; no se fusiona su migración. La [descripción preparada para esa propuesta](lab5-propuesta-v006.md) documenta la decisión.
+Issue: [#6](https://github.com/garmaar/oracle-database-lab/issues/6). Entrega: [Pull Request #7](https://github.com/garmaar/oracle-database-lab/pull/7). Rama principal del trabajo: `chore/5-oracle-dba-workflow-ii`. Hay un commit por Parte A–Q y una corrección UTF-8 separada. La [rama de V006](https://github.com/garmaar/oracle-database-lab/tree/experiment/lab5-v006-fecha-importe) conserva el candidato rechazado; no se fusiona su migración. La [descripción preparada para esa propuesta](lab5-propuesta-v006.md) documenta la decisión.
 
-El cierre de entrega comprende PR con merge commit, etiqueta `lab5-final` sobre el estado fusionado y copia fría final conservada localmente. El PR y la etiqueta permiten consultar la versión entregada cuando avance main. La descripción del PR recoge el estado de revisión, las verificaciones y la validación de la copia final.
+El cierre de entrega comprende PR con merge commit, etiqueta [lab5-final](https://github.com/garmaar/oracle-database-lab/tree/lab5-final) sobre el estado fusionado y copia fría final conservada localmente. El PR y la etiqueta permiten consultar la versión entregada cuando avance main. La descripción del PR recoge el estado de revisión, las verificaciones y la validación de la copia final.
+
+**En Canvas se entrega el enlace https://github.com/garmaar/oracle-database-lab/pull/7**, que reúne scripts, migraciones, evidencias, respuestas, retrospectiva y esta autorrevisión. No se adjunta la copia de la base ni el archivo de credenciales.
 
 **Revisión técnica: realizada como autorrevisión de Pablo García Martínez.** Revisión cruzada externa y caso ciego externo de H no proporcionados, diferenciados del trabajo reproducible completado. No se marcan como aprobaciones de terceros. No entregar .env, backups, piezas RMAN, control files, datafiles ni trazas nativas `.trc`; las trazas de texto exportadas llevan extensión `.trc.txt`.
