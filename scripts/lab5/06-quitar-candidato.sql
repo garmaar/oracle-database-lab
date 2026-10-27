@@ -1,0 +1,5 @@
+WHENEVER SQLERROR EXIT FAILURE
+ALTER SESSION SET CONTAINER=FREEPDB1;
+DROP INDEX tiendasur.ix_ped_fec_importe_l5;
+SELECT COUNT(*) AS candidato_restante FROM dba_indexes WHERE owner='TIENDASUR' AND index_name='IX_PED_FEC_IMPORTE_L5';
+EXIT

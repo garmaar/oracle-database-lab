@@ -1,0 +1,65 @@
+
+===== Pregunta 1 · NECESIDAD: ¿qué índices usa de verdad la carga habitual? (MONITORING USAGE) =====
+-- La carga habitual de TiendaSur (Q2, Q3, Q7, Q8, Q9, Q12), ya reescrita para ser sargable:
+Q2 último mes                  filas=  26746  lecturas lógicas=    329  físicas=    0     13.2 ms
+                               plan: TABLE ACCESS BY INDEX ROWID BATCHED PEDIDO > INDEX RANGE SCAN IX_PED_FECHA
+Q3 código postal               filas=    102  lecturas lógicas=    106  físicas=    0       .6 ms
+                               plan: TABLE ACCESS BY INDEX ROWID BATCHED PEDIDO > INDEX RANGE SCAN IX_PED_CP
+Q7 historial                   filas=      4  lecturas lógicas=      7  físicas=    0       .3 ms
+                               plan: TABLE ACCESS BY INDEX ROWID PEDIDO > INDEX RANGE SCAN DESCENDING IX_PED_CLI_FEC
+Q8 contador                    filas=      1  lecturas lógicas=    735  físicas=    0     13.7 ms
+                               plan: SORT AGGREGATE > INDEX RANGE SCAN IX_PED_FECHA
+Q9 últimos 20                  filas=     20  lecturas lógicas=     13  físicas=    0       .3 ms
+                               plan: COUNT STOPKEY > VIEW > TABLE ACCESS BY INDEX ROWID PEDIDO > INDEX FULL SCAN DESCENDING IX_PED_FECHA
+Q12 pendientes                 filas=  20000  lecturas lógicas=    148  físicas=    0     25.8 ms
+                               plan: SORT ORDER BY > TABLE ACCESS BY INDEX ROWID BATCHED PEDIDO > INDEX RANGE SCAN IX_PED_ESTADO
+
+INDEX_NAME       USA MON
+---------------- --- ---
+IX_PED_CANAL     NO  YES
+IX_PED_CLIENTE   NO  YES
+IX_PED_FEC_CLI   NO  YES
+IX_PED_IMPORTE   NO  YES
+IX_PED_CLI_FEC   YES YES
+IX_PED_CP        YES YES
+IX_PED_ESTADO    YES YES
+IX_PED_FECHA     YES YES
+(En producción la ventana de observación es de semanas, no de minutos: cierres de mes, informes trimestrales...
+23ai mantiene además DBA_INDEX_USAGE de forma automática, con un retraso de unos 15 minutos)
+
+===== Pregunta 2 · VIABILIDAD: ¿la selectividad cae por debajo del punto de equilibrio (~0,5 % en PEDIDO)? =====
+
+INDEX_NAME           CLAVES PCT_POR_VALOR_MEDIO VEREDICTO
+---------------- ---------- ------------------- ------------------------------------------------------------------------
+IX_PED_CANAL              3              33.333 NO viable para igualdad: cada valor es más del 0,5 % de la tabla
+IX_PED_ESTADO             4                  25 NO viable para igualdad: cada valor es más del 0,5 % de la tabla
+IX_PED_CP             11000                .009 viable
+IX_PED_IMPORTE        49908                .002 viable
+IX_PED_CLIENTE       100816                .001 viable
+IX_PED_FECHA         994048                   0 viable
+PK_PEDIDO           1000000                   0 viable
+IX_PED_CLI_FEC      1000000                   0 viable
+IX_PED_FEC_CLI      1000000                   0 viable
+(estado tiene 4 valores: solo 'P' (2 %) sería interesante, y eso lo resuelve mejor un índice PARCIAL; canal, nunca)
+
+===== Pregunta 3 · ESCRITURA: cada índice suma unos 2 bloques modificados por INSERT (la hoja y su undo) =====
+(Ver la medida de 06-medir-dml.sql en cada escenario: "por fila: N bloques" ~ 2 de la tabla + 2 por índice)
+
+===== Pregunta 4 · REDUNDANCIA: índices cuyas columnas son el prefijo izquierdo de otro =====
+
+REDUNDANTE       COLUMNAS                                     CUBIERTO_POR     COLUMNAS_DEL_OTRO
+---------------- -------------------------------------------- ---------------- --------------------------------------------
+IX_PED_CLIENTE   ID_CLIENTE                                   IX_PED_CLI_FEC   ID_CLIENTE, FECHA_PEDIDO
+IX_PED_FECHA     FECHA_PEDIDO                                 IX_PED_FEC_CLI   FECHA_PEDIDO, ID_CLIENTE
+(Un índice único NO es redundante aunque sea prefijo: garantiza una regla de negocio. Y la clave ajena id_cliente
+necesita un índice que EMPIECE por id_cliente, o cada DELETE de un cliente bloquea PEDIDO entero)
+
+===== Pregunta 5 · CICLO DE VIDA: antes de borrar, hacerlo INVISIBLE y observar =====
+
+INDEX_NAME       VISIBILIT STATUS
+---------------- --------- --------
+IX_PED_IMPORTE   INVISIBLE VALID
+Q2 sin ix_ped_importe          filas=  26746  lecturas lógicas=    329  físicas=    0     13.1 ms
+                               plan: TABLE ACCESS BY INDEX ROWID BATCHED PEDIDO > INDEX RANGE SCAN IX_PED_FECHA
+(Invisible: el optimizador lo ignora pero Oracle lo sigue manteniendo. Si algo empeora, ALTER INDEX ... VISIBLE en un segundo,
+sin reconstruir nada. Si en la ventana de observación nadie lo echa de menos, se borra por migración: V005)
