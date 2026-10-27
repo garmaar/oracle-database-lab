@@ -1,0 +1,34 @@
+
+    GROUP#    MEMBERS STATUS	       ARC
+---------- ---------- ---------------- ---
+	 1	    2 CURRENT	       NO
+	 2	    2 ACTIVE	       YES
+	 3	    2 INACTIVE	       YES
+
+
+    GROUP# MEMBER										      STATUS
+---------- ------------------------------------------------------------------------------------------ -------
+	 1 /opt/oracle/oradata/FREE/redo01.log
+	 1 /opt/oracle/oradata/FREE/redo01b.log
+	 2 /opt/oracle/oradata/FREE/redo02.log
+	 2 /opt/oracle/oradata/FREE/redo02b.log
+	 3 /opt/oracle/oradata/FREE/redo03.log
+	 3 /opt/oracle/oradata/FREE/redo03b.log
+
+6 rows selected.
+
+
+HORA		 CAMBIOS
+------------- ----------
+2026-10-27 11	       1
+2026-10-27 16	       1
+2026-10-27 17	      11
+
+
+PL/SQL procedure successfully completed.
+
+
+NAME	  OPEN_MODE	       LOG_MODE
+--------- -------------------- ------------
+FREE	  READ WRITE	       ARCHIVELOG
+
